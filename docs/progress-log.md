@@ -22,6 +22,7 @@
 | 2026-09-05 | W2 Day 1 Step 4 — BRD | BRD v0.2 trace — Step 4 satellite lens to §3 opportunity, updated BR-04/BR-05 to Step 4, added Step 4 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize one satellite problem with speed/accuracy/scale/interpretation mapping |
 | 2026-09-05 | W2 Day 1 Step 5 | How AI is Changing the BA Role — AI does well (drafts) vs cannot replace (scope/sign-off/org reality), workflow (collaborator not author) | `docs/w2-brd/step5-how-ai-changing-ba-role.md` | Completed | Apply draft→judge rule to BRD |
 | 2026-09-05 | W2 Day 1 Step 5 — BRD | BRD v0.2 trace — split BR-07/08 for AI assist vs human judgment, §7 AI workflow note, §9 risks for AI-without-judgment, added Step 5 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Review every AI-drafted line before v0.5 |
+| 2026-09-05 | W2 Day 1 Step 6 | BRD Concept Review — 5 MCQs covering BA definition, BRD 11 sections, BRD vs PRD/FRS, failure patterns without BRD, AI-augmented BA workflow | `docs/w2-brd/step6-brd-concept-review.md` | Completed (check) | Re-read Steps 1–5 if needed, then Build BRD |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.
