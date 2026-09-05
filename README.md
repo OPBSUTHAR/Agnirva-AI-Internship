@@ -15,6 +15,8 @@
 - Agent instructions: [`AGENTS.md`](./AGENTS.md)
 - Progress log (source of truth): [`docs/progress-log.md`](./docs/progress-log.md)
 - Weekly report W1→W2: [`docs/weekly-status-reports/w1-status-report.md`](./docs/weekly-status-reports/w1-status-report.md)
+- W2 Day 1 BA Lens: [`docs/w2-brd/day1-business-analyst-lens.md`](./docs/w2-brd/day1-business-analyst-lens.md)
+- BRD v0.1 draft: [`docs/brd/brd-v0.1.md`](./docs/brd/brd-v0.1.md)
 - Faculty connection: [`docs/w1-orientation/long-range-connection.md`](./docs/w1-orientation/long-range-connection.md)
 - Templates: [`docs/templates/`](./docs/templates/)
 
@@ -23,7 +25,7 @@
 | Week | Hat Role | Artifact | Status |
 |------|----------|----------|--------|
 | W1 | Orientation (Days 1–5) | Orientation + Long-Range Connection | ✅ Completed |
-| W2 | Business Analyst | BRD — Business Requirements Document | 🔄 Queued (next) |
+| W2 | Business Analyst | BRD — Business Requirements Document | 🟡 Day 1 Completed (v0.1 draft) |
 | W3 | Research Analyst | RLD — Research Landscape Document | ⏳ Planned |
 | W4 | Quality Analyst | VQRD — Validation & Quality Requirements | ⏳ Planned |
 | W5 | Product Analyst | PRD — Product Requirements Document | ⏳ Planned |
@@ -59,11 +61,13 @@ W1 Orientation → W2 BRD → W3 RLD → W4 VQRD → W5 PRD → W6 SCRP → W7 L
     └── ...
 ```
 
-## Current Directive — Week 2 (Business Analyst)
-1. Define problem statement & stakeholders
-2. Elicit & prioritize requirements (MoSCoW)
-3. Define success metrics & constraints (ISRO data, compute, latency)
-4. Draft `docs/brd/brd-v0.1.md` → review → v1.0
+## Current Directive — Week 2 (Business Analyst) — Day 1 Done
+1. ✅ Day 1 — 7 steps: W2 Welcome, Domain through BA Lens, What is BA, AI for Indian Satellites BA Lens, How AI Changes BA, BRD Review, Deliverable: Build BRD → `docs/w2-brd/day1-business-analyst-lens.md:1`
+2. ✅ BRD v0.1 scaffolded → `docs/brd/brd-v0.1.md:1`
+3. ⏳ Day 2–3 — Finalize use case, expand MoSCoW to 10–12 items, quantify metrics/constraints → v0.5
+4. ⏳ End of W2 — Review → v1.0
+
+> Attendance: Fill Deliverable form content and submit before clicking Complete Step. Then click **Complete All Steps**. Button only ≠ contribution.
 
 ## References
 - ISRO Bhuvan — https://bhuvan.nrsc.gov.in (accessed 2026-09-05)
@@ -72,4 +76,4 @@ W1 Orientation → W2 BRD → W3 RLD → W4 VQRD → W5 PRD → W6 SCRP → W7 L
 - Christ University Research — https://christuniversity.in/research (accessed 2026-09-05)
 
 ---
-*Last updated: 2026-09-05 | Week 1 done, Week 2 queued | Maintained by Muse Spark agent*
+*Last updated: 2026-09-05 | W2 D1 done, BRD v0.1 drafted | Maintained by Muse Spark agent*

@@ -37,7 +37,10 @@ Week 1 was Orientation (Days 1–5).
   - Roadmap, 6-hat methodology, and Clear Beats Fancy internalized
   - Weekly Status Report prepared for W1→W2 transition
 
-- **Active Status (as of 2026-09-05):** Concluded Week 1, transitioning into **Week 2 — Business Analyst (BRD)**
+- **Active Status (as of 2026-09-05):** **Week 2 — Business Analyst (BRD) — Day 1 COMPLETED**
+  - Day 1 completed: W2 Welcome, Domain Project through BA Lens, What is a BA, AI for Indian Satellites BA Lens, How AI is Changing BA Role, BRD Concept Review, Deliverable: Build Your BRD (scaffold `docs/brd/brd-v0.1.md` v0.1 draft)
+  - Attendance note: Completed forms for Deliverable steps, then clicked Complete All Steps; delayed attendance may be noted per program board
+  - Next: Day 2–3 — finalize use case, expand MoSCoW, quantify metrics → BRD v0.5
 
 Update this table on every turn. No progress is real until documented in `/docs/progress-log.md`.
 
@@ -89,4 +92,4 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Do not delete history — append.
 
 ---
-*Last updated: 2026-09-05 | Updated by: Muse Spark agent | Status: Week 1 done, Week 2 queued*
+*Last updated: 2026-09-05 | Updated by: Muse Spark agent | Status: W2 D1 done, BRD v0.1 drafted*
