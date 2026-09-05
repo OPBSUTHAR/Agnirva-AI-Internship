@@ -20,6 +20,8 @@
 | 2026-09-05 | W2 Day 1 Step 3 — BRD | BRD v0.2 traceability — added Step 3 reference to §11, BA method note to §7, IIBA/BABOK glossary | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Keep problem space open; validate before build |
 | 2026-09-05 | W2 Day 1 Step 4 | AI for Indian Satellites Through BA Lens — separate need from AI excitement, problem before tech, 5 BRD clarifications (problem/users/AI value/scope/outcomes) | `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md` | Completed | Apply to BRD §3/§5/§6/§10 |
 | 2026-09-05 | W2 Day 1 Step 4 — BRD | BRD v0.2 trace — Step 4 satellite lens to §3 opportunity, updated BR-04/BR-05 to Step 4, added Step 4 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize one satellite problem with speed/accuracy/scale/interpretation mapping |
+| 2026-09-05 | W2 Day 1 Step 5 | How AI is Changing the BA Role — AI does well (drafts) vs cannot replace (scope/sign-off/org reality), workflow (collaborator not author) | `docs/w2-brd/step5-how-ai-changing-ba-role.md` | Completed | Apply draft→judge rule to BRD |
+| 2026-09-05 | W2 Day 1 Step 5 — BRD | BRD v0.2 trace — split BR-07/08 for AI assist vs human judgment, §7 AI workflow note, §9 risks for AI-without-judgment, added Step 5 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Review every AI-drafted line before v0.5 |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.

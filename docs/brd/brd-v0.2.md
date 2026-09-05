@@ -61,8 +61,9 @@
 | BR-04 | Success metrics include time-to-insight and coverage in addition to accuracy — must map to satellite workflow improvement (speed/accuracy/scale/interpretation) | Must | AI for Indian Satellites lens (Step 4) | §10 |
 | BR-05 | Constraints (compute, latency, cost, data access tier) are documented explicitly — separates real need from broad AI excitement | Must | W2 directive + Step 4 | §8 |
 | BR-06 | BRD versioned v0.1 → v0.2 → v0.5 → v1.0 via docs/brd/ | Should | Artifact standards (AGENTS.md §4.3) | — |
-| BR-07 | AI augmentation noted as supporting BA judgment, not replacing it (ethics/bias note) | Should | How AI is Changing BA Role | §7, §9 |
-| BR-08 | Localization/accessibility considerations flagged for handoff to LAAP (W7) | Could | 6-hat framework | §5 |
+| BR-07 | AI accelerates draft (stakeholder maps, risk register, requirement formulation, source discovery, consistency checks) — human BA judges and signs off | Should | How AI is Changing BA Role (Step 5 §01 — draft vs judge) | §7, §9 |
+| BR-08 | Scope, missing stakeholder gaps, sign-off ownership, organisational reality — human judgment only (AI cannot replace) | Must | How AI is Changing BA Role (Step 5 §02 — cannot replace) | §4, §5, §7 |
+| BR-09 | Localization/accessibility considerations flagged for handoff to LAAP (W7) | Could | 6-hat framework | §5 |
 
 ## 7. Assumptions
 - Program links for Day 1 steps are completed in order via provided platform links; no external steps are added.
@@ -70,6 +71,7 @@
 - Form submission counts as contribution; button clicks alone are insufficient per Important notice.
 - One use case is sufficient for BRD depth; breadth is deferred to later weeks.
 - BA method: Elicit → Document → Validate (sign-off) → Manage change. See `docs/w2-brd/step3-what-is-a-business-analyst.md:5` — BA holds problem space open; cost of late fix grows exponentially.
+- AI workflow: AI drafts → BA edits/judges → human owns scope and sign-off. See `docs/w2-brd/step5-how-ai-changing-ba-role.md:6` — AI cannot decide scope, detect missing stakeholder info, own sign-off, or navigate organisational reality.
 
 ## 8. Constraints & Dependencies
 - Constraints:
@@ -84,8 +86,9 @@
 ## 9. Risks & Mitigations
 | Risk | Impact | Mitigation | Owner |
 |------|--------|------------|-------|
-| Scope creep — adding implementation/code in W2 | BRD never finishes; later artefacts inherit gaps | Enforce out-of-scope §4; defer build to W5 | BA |
-| Need definition too vague | Team misalignment (top failure cause per Welcome) | Use 11-section traceability; each Must maps to metric in §10 | BA |
+| Scope creep — adding implementation/code in W2 | BRD never finishes; later artefacts inherit gaps | Enforce out-of-scope §4; defer build to W5; AI lists candidates, human decides | BA |
+| Need definition too vague (AI draft left unjudged) | Team misalignment (top failure cause per Welcome) | Require human review of every AI-drafted line before v0.5 — see Step 5 §03 rule | BA |
+| AI draft accepted without judgment | Quiet documentation failure | Validate AI output: compare §6/§9 for vagueness/contradictions; check citations | BA |
 | Data access assumption wrong | Invalid requirements | Cite Bhuvan/MOSDAC with dates; validate catalog before v0.5 | BA |
 | Delayed attendance not marked | Evaluation record invalid | Submit Deliverable forms before clicking Complete Step / Complete All Steps | Student |
 
@@ -106,6 +109,7 @@
 - Agnirva AI Internship — Your Domain Project Through the Business Analyst Lens — Week 2 Day 1 Step 2 (accessed 2026-09-05, `docs/w2-brd/step2-domain-project-ba-lens.md`)
 - Agnirva AI Internship — What is a Business Analyst? — Week 2 Day 1 Step 3 (accessed 2026-09-05, `docs/w2-brd/step3-what-is-a-business-analyst.md`)
 - Agnirva AI Internship — AI for Indian Satellites Through the Business Analyst Lens — Week 2 Day 1 Step 4 (accessed 2026-09-05, `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md`)
+- Agnirva AI Internship — How AI is Changing the Business Analyst Role — Week 2 Day 1 Step 5 (accessed 2026-09-05, `docs/w2-brd/step5-how-ai-changing-ba-role.md`)
 - Framewirk — micro-movement structure (orientation)
 - Glossary:
   - BRD — Business Requirements Document (this artefact, W2)
