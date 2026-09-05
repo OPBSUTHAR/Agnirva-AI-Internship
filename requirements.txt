@@ -1,0 +1,11 @@
+# Minimal prototype dependencies — W2 BRD proof-of-concept
+# Keep lightweight; full EO stack deferred to W5 PRD
+# Used by src/pipeline/bhuvan_fetch.py and eo_pipeline_stub.py
+# Python 3.10+
+
+# No external deps for stub — stdlib only (argparse, pathlib, json)
+# Add when moving to real pipeline (W5):
+# rasterio
+# numpy
+# torch
+# geopandas

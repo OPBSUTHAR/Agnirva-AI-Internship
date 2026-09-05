@@ -17,3 +17,6 @@ venv/
 
 # Logs
 *.log
+
+# Data (prototype stubs write mock JSON here — do not commit real data)
+data/

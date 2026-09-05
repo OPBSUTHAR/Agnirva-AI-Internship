@@ -37,10 +37,11 @@ Week 1 was Orientation (Days 1–5).
   - Roadmap, 6-hat methodology, and Clear Beats Fancy internalized
   - Weekly Status Report prepared for W1→W2 transition
 
-- **Active Status (as of 2026-09-05):** **Week 2 — Business Analyst (BRD) — Day 1 COMPLETED**
-  - Day 1 completed: W2 Welcome, Domain Project through BA Lens, What is a BA, AI for Indian Satellites BA Lens, How AI is Changing BA Role, BRD Concept Review, Deliverable: Build Your BRD (scaffold `docs/brd/brd-v0.1.md` v0.1 draft)
+- **Active Status (as of 2026-09-05):** **Week 2 — Business Analyst (BRD) — Day 1 COMPLETED (11-section alignment)**
+  - Day 1 completed: W2 Welcome Step 1 (Business Analyst is first role, 11-section BRD, 30 activities 6/day, pipeline Need→Synthesis, My First Analysis Note), plus Day 1 lens 7-step capture. Upgrades: `docs/brd/brd-v0.1.md` (8-sec history) → `docs/brd/brd-v0.2.md` (11-sec per Welcome: Executive Summary→References&Glossary)
+  - Prototype path chosen: **BRD + minimal prototype** — stubs `src/pipeline/bhuvan_fetch.py:1`, `src/pipeline/eo_pipeline_stub.py:1` (stdlib-only, verified runnable) + `src/README.md:1` + `docs/w2-brd/prototype-note.md:1`. Marked optional/ out-of-scope; deliverable form still receives BRD text only.
   - Attendance note: Completed forms for Deliverable steps, then clicked Complete All Steps; delayed attendance may be noted per program board
-  - Next: Day 2–3 — finalize use case, expand MoSCoW, quantify metrics → BRD v0.5
+  - Next: Day 2–3 — finalize use case (flood vs crop), expand MoSCoW to 10–12 items, quantify §10 KPIs → BRD v0.5
 
 Update this table on every turn. No progress is real until documented in `/docs/progress-log.md`.
 
