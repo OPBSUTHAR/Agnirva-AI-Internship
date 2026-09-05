@@ -23,6 +23,8 @@
 | 2026-09-05 | W2 Day 1 Step 5 | How AI is Changing the BA Role — AI does well (drafts) vs cannot replace (scope/sign-off/org reality), workflow (collaborator not author) | `docs/w2-brd/step5-how-ai-changing-ba-role.md` | Completed | Apply draft→judge rule to BRD |
 | 2026-09-05 | W2 Day 1 Step 5 — BRD | BRD v0.2 trace — split BR-07/08 for AI assist vs human judgment, §7 AI workflow note, §9 risks for AI-without-judgment, added Step 5 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Review every AI-drafted line before v0.5 |
 | 2026-09-05 | W2 Day 1 Step 6 | BRD Concept Review — 5 MCQs covering BA definition, BRD 11 sections, BRD vs PRD/FRS, failure patterns without BRD, AI-augmented BA workflow | `docs/w2-brd/step6-brd-concept-review.md` | Completed (check) | Re-read Steps 1–5 if needed, then Build BRD |
+| 2026-09-05 | W2 Day 1 Step 7 | Build BRD — Official manual submission form (BRD 1–8 + Student Record) — form-ready draft with word counts and source-aware answers | `docs/brd/brd-deliverable-form-draft.md` | Deliverable draft ready | Copy to form, submit, then Complete Step → Complete All Steps |
+| 2026-09-05 | W2 — 365Futures | AI Documentation Support info — optional bundle does not replace attendance/deliverables | `docs/w2-brd/info-365futures-support.md` | Info logged | Continue BRD track |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.

@@ -45,6 +45,8 @@ Week 1 was Orientation (Days 1–5).
   - Step 4 captured: `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md:1` — separates real need from AI excitement, problem before tech, speed/accuracy/scale/interpretation mapping, 5 BRD clarifications (problem/users/AI value/scope/outcomes). BRD traces to `docs/brd/brd-v0.2.md:3` and BR-04/BR-05.
   - Step 5 captured: `docs/w2-brd/step5-how-ai-changing-ba-role.md:1` — AI does well (stakeholder drafts, risk register, requirement formulation, source discovery, consistency checks) vs cannot replace (scope decision, missing gap detection, sign-off ownership, org reality). Workflow: AI collaborator not author, human judges every line. BRD traces to §7 (AI workflow), §9 (AI-without-judgment risk), BR-07/BR-08.
   - Step 6 captured: `docs/w2-brd/step6-brd-concept-review.md:1` — 5 MCQs (BA definition, BRD 11 sections, BRD vs PRD/FRS, failure without BRD, AI fit), why review exists (apply not recognise).
+  - Step 7 Deliverable drafted: `docs/brd/brd-deliverable-form-draft.md:1` — 8-section BRD form (BRD 1 Primary User 96w, BRD2 Problem 101w, BRD3 Insight 104w, BRD4 three reqs with Bhuvan/MOSDAC/BABOK sources, BRD5 Out-of-Scope 92w, BRD6 Trust Rule 98w, BRD7 three success measures, BRD8 Summary 128w) + Student Record placeholders. Ready to paste into official manual submission form.
+  - Info note: `docs/w2-brd/info-365futures-support.md:1` — 365Futures bundle optional, does not replace attendance/evaluation.
   - Attendance note: Completed forms for Deliverable steps, then clicked Complete All Steps; delayed attendance may be noted per program board
   - Next: Day 2–3 — finalize use case (flood vs crop), expand MoSCoW to 10–12 items, quantify §10 KPIs → BRD v0.5
 
