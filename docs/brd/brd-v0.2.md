@@ -26,6 +26,7 @@
 - Evidence needed: Cite Bhuvan catalog coverage, MOSDAC latency, IN-SPACe private participation notes (to be added in §11 with access dates).
 - Day 1 action: Pick one use case by end of Day 2. Recommendation: flood mapping (near-real-time value, INSAT + SAR data) or crop health monitoring (seasonal value, Resourcesat data). Record decision rationale here.
 - BA lens trace: This section answers BA Q1 "What is the underlying need?" (gap behind request) — not solution phrasing. See `docs/w2-brd/step2-domain-project-ba-lens.md:4`.
+- Step 4 satellite lens: Separate real need from broad AI excitement — need = where satellite workflow needs better speed/accuracy/scale/interpretation for a real user. See `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md:4`. Must connect AI capability → real decision.
 
 ## 4. Scope
 - In scope:
@@ -57,8 +58,8 @@
 | BR-01 | BRD defines one use case with problem, stakeholders, and metrics before design | Must | W2 Day 1 — BRD Concept Review | §3, §5, §10 |
 | BR-02 | Requirements are testable and traceable to stakeholders | Must | BA role definition | §5 |
 | BR-03 | Data sources limited to Indian satellite ecosystem (Bhuvan, MOSDAC) with citation and access date | Must | Track Focus | §11 |
-| BR-04 | Success metrics include time-to-insight and coverage in addition to accuracy | Must | AI for Indian Satellites lens | §10 |
-| BR-05 | Constraints (compute, latency, cost, data access tier) are documented explicitly | Must | W2 directive | §8 |
+| BR-04 | Success metrics include time-to-insight and coverage in addition to accuracy — must map to satellite workflow improvement (speed/accuracy/scale/interpretation) | Must | AI for Indian Satellites lens (Step 4) | §10 |
+| BR-05 | Constraints (compute, latency, cost, data access tier) are documented explicitly — separates real need from broad AI excitement | Must | W2 directive + Step 4 | §8 |
 | BR-06 | BRD versioned v0.1 → v0.2 → v0.5 → v1.0 via docs/brd/ | Should | Artifact standards (AGENTS.md §4.3) | — |
 | BR-07 | AI augmentation noted as supporting BA judgment, not replacing it (ethics/bias note) | Should | How AI is Changing BA Role | §7, §9 |
 | BR-08 | Localization/accessibility considerations flagged for handoff to LAAP (W7) | Could | 6-hat framework | §5 |
@@ -104,6 +105,7 @@
 - Agnirva AI Internship — Week 2 Welcome: Business Analyst — Week 2 Day 1 Step 1 (accessed 2026-09-05)
 - Agnirva AI Internship — Your Domain Project Through the Business Analyst Lens — Week 2 Day 1 Step 2 (accessed 2026-09-05, `docs/w2-brd/step2-domain-project-ba-lens.md`)
 - Agnirva AI Internship — What is a Business Analyst? — Week 2 Day 1 Step 3 (accessed 2026-09-05, `docs/w2-brd/step3-what-is-a-business-analyst.md`)
+- Agnirva AI Internship — AI for Indian Satellites Through the Business Analyst Lens — Week 2 Day 1 Step 4 (accessed 2026-09-05, `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md`)
 - Framewirk — micro-movement structure (orientation)
 - Glossary:
   - BRD — Business Requirements Document (this artefact, W2)

@@ -42,6 +42,7 @@ Week 1 was Orientation (Days 1–5).
   - Prototype path chosen: **BRD + minimal prototype** — stubs `src/pipeline/bhuvan_fetch.py:1`, `src/pipeline/eo_pipeline_stub.py:1` (stdlib-only, verified runnable) + `src/README.md:1` + `docs/w2-brd/prototype-note.md:1`. Marked optional/ out-of-scope; deliverable form still receives BRD text only.
   - Step 2 captured: `docs/w2-brd/step2-domain-project-ba-lens.md:1` — 4-question spine (need/who/success/scope), clarity before action, tracks DCAPSS, why BA first (ISRO/TCS/Infosys discipline). BRD v0.2 trace updated (`docs/brd/brd-v0.2.md:3`, `:4`, `:5`, `:10`).
   - Step 3 captured: `docs/w2-brd/step3-what-is-a-business-analyst.md:1` — BA definition, 4 core activities (elicit/document/validate/manage change), lifecycle position (cost grows exponentially if late), Indian context (IIBA/BABOK, India Stack, TCS/Infosys/Wipro/HCL). BRD traces added to §7 and §11.
+  - Step 4 captured: `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md:1` — separates real need from AI excitement, problem before tech, speed/accuracy/scale/interpretation mapping, 5 BRD clarifications (problem/users/AI value/scope/outcomes). BRD traces to `docs/brd/brd-v0.2.md:3` and BR-04/BR-05.
   - Attendance note: Completed forms for Deliverable steps, then clicked Complete All Steps; delayed attendance may be noted per program board
   - Next: Day 2–3 — finalize use case (flood vs crop), expand MoSCoW to 10–12 items, quantify §10 KPIs → BRD v0.5
 

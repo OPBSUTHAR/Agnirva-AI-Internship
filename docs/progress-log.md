@@ -18,6 +18,8 @@
 | 2026-09-05 | W2 Day 1 Step 2 — BRD | BRD v0.2 traceability update — added BA lens traces to §3/§4/§5/§10, added Step 2 reference to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize use case Day 2 → v0.5 |
 | 2026-09-05 | W2 Day 1 Step 3 | What is a Business Analyst — 4 core activities (elicit/document/validate/manage change), lifecycle position, cost of late fix, Indian context (IIBA/BABOK, India Stack) | `docs/w2-brd/step3-what-is-a-business-analyst.md` | Completed | Apply BA vs PM distinction to BRD review |
 | 2026-09-05 | W2 Day 1 Step 3 — BRD | BRD v0.2 traceability — added Step 3 reference to §11, BA method note to §7, IIBA/BABOK glossary | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Keep problem space open; validate before build |
+| 2026-09-05 | W2 Day 1 Step 4 | AI for Indian Satellites Through BA Lens — separate need from AI excitement, problem before tech, 5 BRD clarifications (problem/users/AI value/scope/outcomes) | `docs/w2-brd/step4-ai-indian-satellites-ba-lens.md` | Completed | Apply to BRD §3/§5/§6/§10 |
+| 2026-09-05 | W2 Day 1 Step 4 — BRD | BRD v0.2 trace — Step 4 satellite lens to §3 opportunity, updated BR-04/BR-05 to Step 4, added Step 4 to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize one satellite problem with speed/accuracy/scale/interpretation mapping |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.
