@@ -25,6 +25,7 @@
 - Opportunity: AI-assisted pipeline reduces time-to-insight, improves coverage, scales analysis with humans in the loop. Framewirk micro-movements structure this as weekly tangible outputs.
 - Evidence needed: Cite Bhuvan catalog coverage, MOSDAC latency, IN-SPACe private participation notes (to be added in §11 with access dates).
 - Day 1 action: Pick one use case by end of Day 2. Recommendation: flood mapping (near-real-time value, INSAT + SAR data) or crop health monitoring (seasonal value, Resourcesat data). Record decision rationale here.
+- BA lens trace: This section answers BA Q1 "What is the underlying need?" (gap behind request) — not solution phrasing. See `docs/w2-brd/step2-domain-project-ba-lens.md:4`.
 
 ## 4. Scope
 - In scope:
@@ -33,9 +34,10 @@
   - Business requirements prioritized by MoSCoW and traceable to stakeholders
   - References and glossary with citations (URL + access date)
 - Out of scope:
-  - Technical design, model architecture, and pipeline implementation (deferred to RLD/W3 and PRD/W5)
+  - Technical design, model architecture, and pipeline implementation (deferred to RLD/W3 and PRD/W5) — solution thinking held for W5 Product Analyst
   - Deployment and localization execution (W6–W7)
   - Topics outside Week 2 scheduled steps and the 30 artifact activities
+- BA lens trace: This section answers BA Q4 "What is in scope, and what is not?" (defensible boundary) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`. Hold solution instinct.
 
 ## 5. Stakeholders & Personas
 | Stakeholder | Role | Need | Priority |
@@ -47,6 +49,7 @@
 | Agnirva / Framewirk program | Delivery governance | Weekly artefacts (BRD), Clear Beats Fancy standard, micro-movement cadence | Must |
 | Development team (next hats: RLD, VQRD, PRD) | Consumer of BRD | Clear, testable requirements to derive research and product decisions | Must |
 | Citizen / public audience (W6–W7 handoff) | Audience | Accessible, localized insight delivery | Could |
+- BA lens trace: This section answers BA Q2 "Who experiences that need?" (precision-named persons/orgs) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`.
 
 ## 6. Requirements (MoSCoW) — Draft (expand Day 2–3 to 10–12 items)
 | ID | Requirement | Priority | Source | Traces to |
@@ -90,6 +93,7 @@
 - Citation: ≥3 authoritative sources (ISRO/Bhuvan/MOSDAC/IN-SPACe) with URL + access date in §11
 - Cadence: 30 activities tracked (6/day Mon–Fri), Day 1–4 builds, Day 5 assembly → My First Analysis Note
 - Review: v0.2 → v0.5 feedback incorporated; v1.0 passes 11-section checklist and self-review
+- BA lens trace: This section answers BA Q3 "What does success look like?" (specific observable outcome) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`. Must be observable, not vague.
 
 ## 11. References & Glossary
 - ISRO Bhuvan — https://bhuvan.nrsc.gov.in (accessed 2026-09-05)
@@ -97,6 +101,7 @@
 - IN-SPACe — https://www.inspace.gov.in (accessed 2026-09-05)
 - Christ University Research — https://christuniversity.in/research (accessed 2026-09-05)
 - Agnirva AI Internship — Week 2 Welcome: Business Analyst — Week 2 Day 1 Step 1 (accessed 2026-09-05)
+- Agnirva AI Internship — Your Domain Project Through the Business Analyst Lens — Week 2 Day 1 Step 2 (accessed 2026-09-05, `docs/w2-brd/step2-domain-project-ba-lens.md`)
 - Framewirk — micro-movement structure (orientation)
 - Glossary:
   - BRD — Business Requirements Document (this artefact, W2)

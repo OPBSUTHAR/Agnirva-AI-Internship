@@ -14,6 +14,8 @@
 | 2026-09-05 | W2 Day 1 Business Analyst — Step 1 | Week 2 Welcome: Business Analyst — 11-section BRD, 30 activities (6/day), pipeline Need→Landscape→Quality→Product→Audience→Language | `docs/w2-brd/week2-welcome-business-analyst.md` | Completed | Upgrade BRD to 11 sections |
 | 2026-09-05 | W2 Day 1 Business Analyst — BRD | BRD v0.2 — 11-section alignment (Executive Summary → References & Glossary) per Welcome | `docs/brd/brd-v0.2.md` | Draft v0.2 | Finalize use case Day 2, expand §6–§11 → v0.5 |
 | 2026-09-05 | W2 Day 1 Business Analyst — Prototype | Minimal prototype stub (bhuvan_fetch + eo_pipeline + exploration) — optional proof-of-concept, stdlib only, verified runnable | `src/pipeline/bhuvan_fetch.py`, `src/pipeline/eo_pipeline_stub.py`, `src/README.md`, `docs/w2-brd/prototype-note.md` | Completed (stub) | Keep stub frozen; real build deferred to W5 |
+| 2026-09-05 | W2 Day 1 Step 2 | Your Domain Project Through BA Lens — 4-question spine (need/who/success/scope), clarity before action, why BA first | `docs/w2-brd/step2-domain-project-ba-lens.md` | Completed | Apply 4 questions to BRD §3/§5/§10/§4 |
+| 2026-09-05 | W2 Day 1 Step 2 — BRD | BRD v0.2 traceability update — added BA lens traces to §3/§4/§5/§10, added Step 2 reference to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize use case Day 2 → v0.5 |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.
