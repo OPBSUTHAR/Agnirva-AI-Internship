@@ -68,6 +68,7 @@
 - W1 orientation artifacts (AGENTS.md, progress log, Long-Range Connection note) are available as inputs.
 - Form submission counts as contribution; button clicks alone are insufficient per Important notice.
 - One use case is sufficient for BRD depth; breadth is deferred to later weeks.
+- BA method: Elicit → Document → Validate (sign-off) → Manage change. See `docs/w2-brd/step3-what-is-a-business-analyst.md:5` — BA holds problem space open; cost of late fix grows exponentially.
 
 ## 8. Constraints & Dependencies
 - Constraints:
@@ -102,11 +103,14 @@
 - Christ University Research — https://christuniversity.in/research (accessed 2026-09-05)
 - Agnirva AI Internship — Week 2 Welcome: Business Analyst — Week 2 Day 1 Step 1 (accessed 2026-09-05)
 - Agnirva AI Internship — Your Domain Project Through the Business Analyst Lens — Week 2 Day 1 Step 2 (accessed 2026-09-05, `docs/w2-brd/step2-domain-project-ba-lens.md`)
+- Agnirva AI Internship — What is a Business Analyst? — Week 2 Day 1 Step 3 (accessed 2026-09-05, `docs/w2-brd/step3-what-is-a-business-analyst.md`)
 - Framewirk — micro-movement structure (orientation)
 - Glossary:
   - BRD — Business Requirements Document (this artefact, W2)
   - RLD — Research Landscape Document (W3), VQRD — Validation & Quality Requirements (W4), PRD — Product Requirements (W5), SCRP — Stakeholder Communication & Reporting Plan (W6), LAAP — Localization & Accessibility Action Plan (W7)
-  - MoSCoW — Must / Should / Could / Won't prioritization
+   - MoSCoW — Must / Should / Could / Won't prioritization
+   - IIBA / BABOK — International Institute of Business Analysis / Business Analysis Body of Knowledge (see Step 3 §7)
+   - India Stack — UPI / Aadhaar / DigiLocker as BA-driven specifications
 
 ---
 *Status: v0.2 draft aligned to 11 sections (Welcome). Next: finalize use case and expand §6 to 10–12 requirements, quantify §10 metrics, complete §11 citations. Then paste into program Deliverable form, submit, then Complete Step → Complete All Steps for attendance. Content from v0.1 preserved above; v0.1 kept as history.*

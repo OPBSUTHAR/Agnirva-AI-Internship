@@ -16,6 +16,8 @@
 | 2026-09-05 | W2 Day 1 Business Analyst — Prototype | Minimal prototype stub (bhuvan_fetch + eo_pipeline + exploration) — optional proof-of-concept, stdlib only, verified runnable | `src/pipeline/bhuvan_fetch.py`, `src/pipeline/eo_pipeline_stub.py`, `src/README.md`, `docs/w2-brd/prototype-note.md` | Completed (stub) | Keep stub frozen; real build deferred to W5 |
 | 2026-09-05 | W2 Day 1 Step 2 | Your Domain Project Through BA Lens — 4-question spine (need/who/success/scope), clarity before action, why BA first | `docs/w2-brd/step2-domain-project-ba-lens.md` | Completed | Apply 4 questions to BRD §3/§5/§10/§4 |
 | 2026-09-05 | W2 Day 1 Step 2 — BRD | BRD v0.2 traceability update — added BA lens traces to §3/§4/§5/§10, added Step 2 reference to §11 | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Finalize use case Day 2 → v0.5 |
+| 2026-09-05 | W2 Day 1 Step 3 | What is a Business Analyst — 4 core activities (elicit/document/validate/manage change), lifecycle position, cost of late fix, Indian context (IIBA/BABOK, India Stack) | `docs/w2-brd/step3-what-is-a-business-analyst.md` | Completed | Apply BA vs PM distinction to BRD review |
+| 2026-09-05 | W2 Day 1 Step 3 — BRD | BRD v0.2 traceability — added Step 3 reference to §11, BA method note to §7, IIBA/BABOK glossary | `docs/brd/brd-v0.2.md` | Draft v0.2 updated | Keep problem space open; validate before build |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.
