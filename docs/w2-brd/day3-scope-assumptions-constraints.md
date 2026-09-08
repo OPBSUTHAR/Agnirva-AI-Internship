@@ -20,10 +20,11 @@ Protect Day 2 work (stakeholders §5 + objectives §2) by drawing hard boundarie
 ## 4. Today's 5 Scheduled Steps
 
 ### 4.1 Focus — Scope, Assumptions, and Constraints (Step 1 of Day 3)
-- **Why now:** Day 2 anchored who + what success looks like. Without boundaries, every downstream artefact (W3 SWOT, W5 PRD, W6 SCRP, W7 LAAP) inherits scope creep and never finishes. Scope is the discipline that protects human + outcome layers.
-- **What you build today:** BRD §4 (In/Out), §7 (Assumptions — what you assume true and must validate), §8 (Constraints & Dependencies — hard limits: data access, compute, latency, time), §9 (Risks & Mitigations — what could go wrong if assumptions fail).
-- **Range note:** You Are Building Range — BA lens this week is "define before build." Same project (AI for Indian Satellites flood extent) looks different through BA vs product vs research lens. Let role change your questions.
-- **Work sequence:** Article on saying no → article on cost of skipping BRD → guide on assumptions/risks → six artifact activities MT13–MT18 that harden §4/§7/§8/§9 → Day 3 Recap.
+> Verbatim from board: "A project without a scope statement is a project that grows. A project that grows beyond what can be delivered is a project that fails. Day 3 introduces the single most underappreciated discipline: defining what the project will not do. Yesterday you defined who serves and what outcomes you commit to. Today you draw the boundary line. Inside is what you will deliver. Outside is everything else someone might reasonably expect, but which this project explicitly excludes. Without that boundary, every conversation becomes a negotiation about adding something new."
+
+- **What you build today:** Three of eleven BRD sections. **Scope (§4)** names what is in scope and what is explicitly out of scope. **Assumptions (§7)** catalogs what you treat as true without formal verification. **Constraints (§8)** names hard limits: time, resources, access, policy, and others. These together protect from quiet expansion, hidden risks, and being judged later against criteria never agreed. Most skipped in first BRDs; absence causes most expensive downstream mistakes.
+- **Work sequence:** Three short articles → six artifact activities MT13–MT18 that build Scope, Assumptions, Constraints in `docs/brd/brd-v0.2.md` → Day 3 Recap.
+- **Range note:** You Are Building Range — each week gives new professional lens; let role change how you see same flood extent project.
 
 ### 4.2 The Art of Scope: Why Saying No is a BA's Superpower
 - Placeholder for Step 2 article — to be filled when user provides Step 2 content. Expected themes: out-of-scope list as explicit promise, why "no" protects "yes," protecting 30-activity / 5-day cadence.
