@@ -77,9 +77,33 @@ Close: "BRD is not deliverable to be finished and filed away. It is reference te
 
 Applied: `docs/brd/brd-v0.2.md` already holds problem space open per `docs/w2-brd/step3-what-is-a-business-analyst.md:5` (§7) and AI-without-judgment risk (§9) — Step 3 explains why those prevent compounding costs. MT15 maps here.
 
-### 4.4 Assumptions and Risks: Planning for What Could Go Wrong
-- Placeholder for Step 4 guide — to be filled when user provides Step 4 content. Expected: assumption → risk → mitigation mapping, validation plan for each assumption (catalog access, latency, availability).
-- Current BRD §7 lists 6 assumptions (links in order, one use case sufficient, form submission counts, etc.) and §9 has 5 risks with mitigations. MT14–MT17 will make each assumption testable and each mitigation owned.
+### 4.4 Assumptions and Risks: Planning for What Could Go Wrong (Step 4 Article)
+> Lead: "Every project relies on assumptions, faces risks. Mature work names both explicitly so team knows what treated as true and what could change outcome. Assumptions §7 + Risk Register §9 are two of 11 standard sections, referred to most often during execution."
+> Definition: **Assumption** = treated as true without formal verification ("assume target audience has reliable internet" — might be true, not checked; if false, decisions revisited). **Risk** = event that could happen and would change outcome if did ("risk partner doesn't approve citation format in time" — plan needed for both).
+
+**01 — Writing Useful Assumptions (5–8 for W2, 3 properties: condition, what changes if false, testable):**
+- Weak: "We assume project will be successful."
+- Strong: "Assume Agnirva editorial team available Day 5 for BRD sign-off. If not, sign-off deferred to Monday, Week 3 starts against unsigned draft. Testable via calendar."
+Strong names specific condition, specifies what changes if false (deferred sign-off, draft becomes working doc), testable (calendar confirms).
+
+Categories (5):
+01 Audience assumptions — what true about people served (know, device, language) 02 Source assumptions — what credible without further verification 03 Institutional assumptions — what expect from partners/program team, timeframe 04 Tool/resource assumptions — working conditions depends on (AI tools, time budget) 05 Timeline assumptions — availability of stakeholders/reviewers/own time
+
+Quote: "Every assumption is a quiet bet. Naming bet doesn't change odds. It changes whether you notice when bet gone wrong."
+
+**02 — Building Useful Risk Register (5–10 for W2, Infosys/TCS/Wipro standard format — 4 pieces per risk):**
+For each risk: (1) what is risk plain language, (2) probability High/Med/Low, (3) impact High/Med/Low, (4) mitigation — action to reduce probability or impact. High/High = fully developed mitigation, may change plan before materialises; Low/Low = acknowledge/monitor; middle = BA judgment.
+
+Common Agnirva categories: source risks (key reference unavailable/outdated), audience risks (definition different from assumed), quality risks (fails W4 VQRD review), localisation risks (W7 translator finds untranslatable terms), timeline risks (overruns week).
+
+**03 — How Assumptions and Risks Work Together (related distinct):**
+Every assumption wrong = risk materialised. Register often includes inverse of assumption. Example: Assumption "partner responds within 5 working days" → Risk "partner does not respond within 5 days. Prob: medium. Impact: medium. Mitigation: identify alternate review source by Day 3, secure backup commitment by Day 4." Together gives finished picture what uncertain + how managed. BRD without assumptions reads as knows everything; without register reads as no plan for what might go wrong.
+
+AI help: Internship Assistant generates candidate risks for project type (refine with specific knowledge); Perplexity verifies assumptions vs public info (institution still operates, policy still applies); Gemini stress-tests language for specificity/testability. Judgment which assumptions/risks matter remains yours.
+
+Close: "Risk register not write once and file. Read weekly: have any materialised? new emerged? assumptions confirmed/invalidated? Read weekly = doing job. Written and ignored = decoration."
+
+Applied to this project: `docs/brd/brd-v0.2.md:7` currently 6 assumptions will be expanded to 7 covering audience/source/institutional/tool/timeline with testable conditions; `:9` 5 risks will be expanded to 7 with probability/impact/mitigation + assumption inverses, per MT14–MT17.
 
 ### 4.5 Day 3 Recap — What Must Be True Before Leaving Day 3 (MT18)
 - [ ] Scope in `brd-v0.2.md:4` has explicit In and Out lists — Out is not implied absence but stated commitment.

@@ -75,13 +75,20 @@
 | BR-08 | Scope, missing stakeholder gaps, sign-off ownership, organisational reality — human judgment only (AI cannot replace) | Must | How AI is Changing BA Role (Step 5 §02 — cannot replace) | §4, §5, §7 |
 | BR-09 | Localization/accessibility considerations flagged for handoff to LAAP (W7) | Could | 6-hat framework | §5 |
 
-## 7. Assumptions
-- Program links for Day 1 steps are completed in order via provided platform links; no external steps are added.
-- W1 orientation artifacts (AGENTS.md, progress log, Long-Range Connection note) are available as inputs.
-- Form submission counts as contribution; button clicks alone are insufficient per Important notice.
-- One use case is sufficient for BRD depth; breadth is deferred to later weeks.
-- BA method: Elicit → Document → Validate (sign-off) → Manage change. See `docs/w2-brd/step3-what-is-a-business-analyst.md:5` — BA holds problem space open; cost of late fix grows exponentially.
-- AI workflow: AI drafts → BA edits/judges → human owns scope and sign-off. See `docs/w2-brd/step5-how-ai-changing-ba-role.md:6` — AI cannot decide scope, detect missing stakeholder info, own sign-off, or navigate organisational reality.
+## 7. Assumptions — 7 Testable Bets (Day 3 MT14–MT15, Step 4 categories)
+> Each assumption names condition, what changes if false, and how verified (testable). Naming bet doesn't change odds — changes whether you notice when wrong. See `docs/w2-brd/day3-scope-assumptions-constraints.md:4.4`.
+
+| # | Assumption (treated as true) | Category | If False, Then | Verification |
+|---|------------------------------|----------|----------------|--------------|
+| A1 | KSDMA/ASDMA analyst has reliable internet and desktop to view GeoJSON/PDF within 3h | Audience | Fallback to static PNG + SMS summary; W6 SCRP adds offline path | Confirm via Agnirva stakeholder note Day 2 — not yet formally verified |
+| A2 | Bhuvan open tiers + MOSDAC RISAT/Resourcesat via https://bhuvan.nrsc.gov.in / https://www.mosdac.gov.in remain accessible for student use in 2026 monsoon | Source | Scope shrinks to single sensor or sample tiles; requirements BR-03/BR-04 revised | Check catalog access before v0.5 (Perplexity verification) |
+| A3 | Agnirva program team and editorial available Day 5 for BRD sign-off | Institutional | Sign-off deferred to next Monday; Week 3 starts against unsigned draft | Editorial calendar — testable |
+| A4 | One flood use case (district extent, one state) sufficient for BRD depth; breadth deferred | Resource | Must split into narrower slice or extend timeline — scope re-cut | Framewirk 30-activity budget (6/day) |
+| A5 | Agnirva Internship Assistant / Perplexity / Gemini available for draft and gap-check | Tool/resource | Revert to manual stakeholder gap check; longer draft time | Tool availability check Day 3 |
+| A6 | Time boxed to 5 working days / 30 activities (MT13–MT18 Day 3); no external steps added | Timeline | Must defer scope items to Could/Won't; re-plan MT | Weekly cadence tracker |
+| A7 | Form submission counts as contribution; button clicks alone insufficient | Institutional | Attendance marked invalid if only clicked | Program Important notice |
+
+- BA method: Elicit → Document → Validate → Manage change (`docs/w2-brd/step3-what-is-a-business-analyst.md:5`). AI workflow: AI drafts → BA judges → human owns scope/sign-off (`docs/w2-brd/step5-how-ai-changing-ba-role.md:6`).
 
 ## 8. Constraints & Dependencies
 - Constraints:
@@ -93,14 +100,18 @@
   - ISRO/IN-SPACe data availability and documentation
   - Weekly cadence: BRD → RLD → VQRD → PRD → SCRP → LAAP (pipeline dependency)
 
-## 9. Risks & Mitigations
-| Risk | Impact | Mitigation | Owner |
-|------|--------|------------|-------|
-| Scope creep — adding implementation/code in W2 | BRD never finishes; later artefacts inherit gaps | Enforce out-of-scope §4; defer build to W5; AI lists candidates, human decides | BA |
-| Need definition too vague (AI draft left unjudged) | Team misalignment (top failure cause per Welcome) | Require human review of every AI-drafted line before v0.5 — see Step 5 §03 rule | BA |
-| AI draft accepted without judgment | Quiet documentation failure | Validate AI output: compare §6/§9 for vagueness/contradictions; check citations | BA |
-| Data access assumption wrong | Invalid requirements | Cite Bhuvan/MOSDAC with dates; validate catalog before v0.5 | BA |
-| Delayed attendance not marked | Evaluation record invalid | Submit Deliverable forms before clicking Complete Step / Complete All Steps | Student |
+## 9. Risks & Mitigations — Risk Register (7 risks, Prob/Impact, Mitigation, Owner) (Day 3 MT16–MT17)
+> Format per Infosys/TCS/Wipro: Risk — Prob — Impact — Mitigation. Read weekly: materialised? new? assumptions confirmed? See `docs/w2-brd/day3-scope-assumptions-constraints.md:4.4`. Each risk inverses an assumption in §7 where noted.
+
+| # | Risk (plain language) | Prob | Impact | Mitigation | Owner | Inverses |
+|---|------------------------|------|--------|------------|-------|----------|
+| R1 | BHUVAN/MOSDAC tier unavailable or policy changes (DPDP Act) — A2 fails | Med | High | Use sample tiles + alternate source (IMD) and revise BR-03; identify backup catalog by Day 3 | BA | A2 |
+| R2 | Audience has no reliable internet / needs offline (A1 fails) | Med | Med | Provide PNG fallback + SMS path; log for W6 SCRP | BA | A1 |
+| R3 | Editorial not available Day 5 for sign-off — A3 fails | Med | Med | Secure backup reviewer by Day 3; start Week 3 against unsigned draft with risk note | BA | A3 |
+| R4 | Scope creep — implementation/code added in W2 (Day 3 focus failure) | High | High | Enforce §4 In/Out; defer build to W5; AI lists candidates, human decides; holds test | BA | A4/A6 |
+| R5 | Need definition too vague / AI draft left unjudged | Med | High | Human review every AI-drafted line before v0.5; SMART + 3 failure-mode check (Step 4) | BA | A5 |
+| R6 | Data/quality assumption wrong — artefact fails W4 VQRD review | Med | High | Cite Bhuvan/MOSDAC with dates; validate catalog + IoU method before v0.5 | BA | A2 |
+| R7 | Delayed attendance not marked / timeline overruns — A6/A7 fails | Med | Med | Submit Deliverable forms before Complete Step; track MT13–MT18 daily; Complete All Steps only after all steps done | Student/BA | A6/A7 |
 
 ## 10. Success Metrics (KPIs)
 - Completeness: all 11 sections filled with Clear Beats Fancy style (sentences <20 words, active voice, bullets)
