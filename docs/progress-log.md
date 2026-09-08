@@ -25,6 +25,9 @@
 | 2026-09-05 | W2 Day 1 Step 6 | BRD Concept Review — 5 MCQs covering BA definition, BRD 11 sections, BRD vs PRD/FRS, failure patterns without BRD, AI-augmented BA workflow | `docs/w2-brd/step6-brd-concept-review.md` | Completed (check) | Re-read Steps 1–5 if needed, then Build BRD |
 | 2026-09-05 | W2 Day 1 Step 7 | Build BRD — Official manual submission form (BRD 1–8 + Student Record) — form-ready draft with word counts and source-aware answers | `docs/brd/brd-deliverable-form-draft.md` | Deliverable draft ready | Copy to form, submit, then Complete Step → Complete All Steps |
 | 2026-09-05 | W2 — 365Futures | AI Documentation Support info — optional bundle does not replace attendance/deliverables | `docs/w2-brd/info-365futures-support.md` | Info logged | Continue BRD track |
+| 2026-09-08 | W2 Day 1 → Day 2 | BRD deliverable consolidation — single draft, 80/90/120 minimums met, BRD4/BRD7 structured per form, duplicate removed | `docs/brd/brd-deliverable-form-draft.md` | Updated (consolidated) | Use for Day 2 form submission |
+| 2026-09-08 | W2 — Security | Untrack opencode local config — remove opencode.json from git, keep locally, ignore .opencode/ per instructions | `.gitignore`, `opencode.json` (untracked) | Committed eb97dee (not pushed, 7 ahead) | Push batched at 15 |
+| 2026-09-08 | W2 Day 2 Business Analyst | Stakeholders and Objectives — Who Are Stakeholders, Analysis With AI, Objectives That Mean Something, Recap (5 steps) + Keep It Human | `docs/w2-brd/day2-stakeholders-objectives.md` | Completed | Click Complete All Steps for Day 2 attendance |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.

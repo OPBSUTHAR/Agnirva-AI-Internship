@@ -37,7 +37,13 @@ Week 1 was Orientation (Days 1–5).
   - Roadmap, 6-hat methodology, and Clear Beats Fancy internalized
   - Weekly Status Report prepared for W1→W2 transition
 
-- **Active Status (as of 2026-09-05):** **Week 2 — Business Analyst (BRD) — Day 1 COMPLETED (11-section alignment)**
+- **Active Status (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 2 IN PROGRESS (Stakeholders & Objectives)**
+  - Day 2 captured: `docs/w2-brd/day2-stakeholders-objectives.md:1` — 5 steps (Focus, Who Are Stakeholders, Analysis With AI, Objectives That Mean Something, Recap), Keep It Human, stakeholder table refined, AI draft→judge workflow, 4 testable objectives (3h / 1000km² / IoU 0.65).
+  - BRD deliverable consolidated 2026-09-08: `docs/brd/brd-deliverable-form-draft.md:1` now meets minimums (BRD1 98w/80, BRD2 98w/90, BRD3 95w/90, BRD5 106w/80, BRD6 120w/80, BRD8 123w/120) with BRD4/BRD7 structured per form; duplicate `brd-deliverable-form-short.md` removed.
+  - Security: `opencode.json:1` untracked (was on origin/main 52b5e88), ` .opencode/` ignored via `.gitignore:25` — committed eb97dee locally, 7 ahead, not pushed per 15-commit batch rule. Local copies kept.
+  - Previous Day 1 status preserved below —
+
+- **Completed (as of 2026-09-05):** **Week 2 — Business Analyst (BRD) — Day 1 COMPLETED (11-section alignment)**
   - Day 1 completed: W2 Welcome Step 1 (Business Analyst is first role, 11-section BRD, 30 activities 6/day, pipeline Need→Synthesis, My First Analysis Note), plus Day 1 lens 7-step capture. Upgrades: `docs/brd/brd-v0.1.md` (8-sec history) → `docs/brd/brd-v0.2.md` (11-sec per Welcome: Executive Summary→References&Glossary)
   - Prototype path chosen: **BRD + minimal prototype** — stubs `src/pipeline/bhuvan_fetch.py:1`, `src/pipeline/eo_pipeline_stub.py:1` (stdlib-only, verified runnable) + `src/README.md:1` + `docs/w2-brd/prototype-note.md:1`. Marked optional/ out-of-scope; deliverable form still receives BRD text only.
   - Step 2 captured: `docs/w2-brd/step2-domain-project-ba-lens.md:1` — 4-question spine (need/who/success/scope), clarity before action, tracks DCAPSS, why BA first (ISRO/TCS/Infosys discipline). BRD v0.2 trace updated (`docs/brd/brd-v0.2.md:3`, `:4`, `:5`, `:10`).
@@ -101,4 +107,4 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Do not delete history — append.
 
 ---
-*Last updated: 2026-09-05 | Updated by: Muse Spark agent | Status: W2 D1 done, BRD v0.2 + Step 3, push cadence = every 15 commits*
+*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D2 done — stakeholders & objectives, BRD deliverable consolidated, opencode untracked, 7 ahead*
