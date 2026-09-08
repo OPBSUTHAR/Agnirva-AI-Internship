@@ -10,11 +10,14 @@
 - Scope this week: One domain use case (flood mapping or crop monitoring to be finalized Day 2). Produce 30 artifact activities (6/day Mon–Fri), assembled Friday as My First Analysis Note.
 - Success: Complete 11 sections, traceable requirements, cited sources, reviewed v0.2 → v0.5 → v1.0.
 
-## 2. Business Objectives
-- O1: Define the need precisely enough that the team aligns on what to build (avoid need-definition failure — the top cause of project failure per W2 Welcome).
-- O2: Map objectives to measurable outcomes (time-to-insight, coverage, cost, accuracy) rather than vague improvement claims.
-- O3: Establish scope, assumptions, risks, and constraints so later weeks (RLD, VQRD, PRD, SCRP, LAAP) have a coherent reference.
-- O4: Keep work inside Week 2 scheduled steps; produce one professional artefact per day rhythm without scope creep.
+## 2. Business Objectives — 5 Testable Outcomes (Day 2 fill: MT7–MT12)
+> Day 2 Step 1: Translate problem statement into 3–5 measurable, testable outcomes. Each must state what will be achieved, for whom, and how it is verified. Vague improvement language fails.
+
+- O1 — Time-to-insight: Deliver validated district flood extent map within 3 hours of overpass, with tile lineage (Bhuvan/MOSDAC tile ID, acquisition time, sensor) attached. Verified by timestamp diff per tile.
+- O2 — Coverage: Map ≥1000 km² per run from 2–3 tiles without hand digitization, CRS EPSG:4326 consistent. Verified by mosaic area calculation.
+- O3 — Accuracy: Achieve IoU ≥0.65 against 10% hand-digitized validation sample, every polygon cites source URL + access date. Verified by sample comparison.
+- O4 — Scope discipline: Keep V1 to one state / one monsoon window; log assumptions and out-of-scope items so later hats do not inherit creep. Verified by §4/§8 trace.
+- O5 — Traceability: Every Must requirement links to a stakeholder in §5 and a metric in §10, with citations in §11. Verified by trace matrix review before v0.5.
 
 ## 3. Problem Statement
 - Current state: ISRO provides rich Earth observation data via Bhuvan and MOSDAC (Cartosat, Resourcesat, RISAT, INSAT-3D/3DR, Oceansat). Use is limited by manual analysis, latency, and fragmented access.
@@ -40,16 +43,20 @@
   - Topics outside Week 2 scheduled steps and the 30 artifact activities
 - BA lens trace: This section answers BA Q4 "What is in scope, and what is not?" (defensible boundary) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`. Hold solution instinct.
 
-## 5. Stakeholders & Personas
-| Stakeholder | Role | Need | Priority |
-|-------------|------|------|----------|
-| ISRO / NRSC (Bhuvan), SAC (MOSDAC) | Data provider | Reliable, documented access to Indian satellite imagery and products | Must |
-| IN-SPACe | Regulator / enabler | Framework for private and academic use of space data | Must |
-| Farmers / Agriculture Dept / State disaster cells (end users) | Beneficiary | Timely, accurate, actionable insights in local context | Must |
-| Christ University — Faculty Research | Institutional anchor | Link academic research to space-AI application; Long-Range Connection continuity | Should |
-| Agnirva / Framewirk program | Delivery governance | Weekly artefacts (BRD), Clear Beats Fancy standard, micro-movement cadence | Must |
-| Development team (next hats: RLD, VQRD, PRD) | Consumer of BRD | Clear, testable requirements to derive research and product decisions | Must |
-| Citizen / public audience (W6–W7 handoff) | Audience | Accessible, localized insight delivery | Could |
+## 5. Stakeholders & Personas — Catalog with Interest and Need (Day 2 fill: MT7–MT12)
+> Day 2 Step 1: Catalog every person/group with interest, what each cares about, and what each needs from the work. Generic groups signal imprecise BA work; named groups with one-line need signal real work. Maps to BRD §5 in Welcome 11-section structure.
+
+| Stakeholder | Role | Cares About (Interest) | Needs From This Work | Priority |
+|-------------|------|------------------------|----------------------|----------|
+| District disaster analyst — KSDMA / ASDMA (primary user, BRD1) | Decisions evacuation & relief routing | Lives saved in <3h window, defensible map for briefing | Validated flood extent polygon with Bhuvan/MOSDAC lineage (tile ID, time, sensor) | Must |
+| ISRO NRSC (Bhuvan) / SAC (MOSDAC) | Data provider & provenance | Correct citation, proper use of open vs restricted tiers | Documentation of source tier, catalog link, access date per tile | Must |
+| IN-SPACe | Regulator / enabler | Compliant private/academic use of space data | Framework reference showing V1 stays within permitted use | Must |
+| IMD (weather context) | Adjacent data provider | Rainfall context for flood interpretation | Cited IMD input where used, not conflated with EO extent | Should |
+| Christ University — Faculty Research | Institutional anchor | Research linkage Long-Range Connection | Traceable BRD that connects academic rigor to space-AI application | Should |
+| Agnirva / Framewirk program | Delivery governance | Weekly artefacts, Clear Beats Fancy, micro-movement cadence | BRD v0.2 with 11 sections, 6 activities/day, attendance via Complete All Steps | Must |
+| Downstream hats — RLD / VQRD / PRD owners | Consumer of BRD | Clear, testable requirements to derive next artefacts | Requirements table (MoSCoW) with stakeholder + metric trace | Must |
+| Citizen / public audience | Audience (W6–W7 handoff) | Accessible, localized insight | Flag for SCRP/LAAP handoff, not built in V1 | Could |
+- Day 2 trace: Generic "users/partners" replaced by named groups above. Each row now answers interest + need + priority — test of precise examination per Step 1 article.
 - BA lens trace: This section answers BA Q2 "Who experiences that need?" (precision-named persons/orgs) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`.
 
 ## 6. Requirements (MoSCoW) — Draft (expand Day 2–3 to 10–12 items)

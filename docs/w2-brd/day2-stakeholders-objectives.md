@@ -19,10 +19,13 @@ Answer two BRD spine questions with precision before defining requirements: who 
 
 ## 4. Today's 5 Scheduled Steps
 
-### 4.1 Focus — Stakeholders and Objectives
-- **Why together:** Problem without owner has no priority. Objective without audience has no proof. W2 Welcome defines BRD success as answering need, who, success, boundaries — Day 1 covered need, Day 2 covers who + success.
-- **Keep It Human reminder:** Complicated language hides weak thinking. A district analyst must understand your BRD in one reading. Short sentences, active voice, named owners.
-- **Deliverable tie:** BRD §5 names who. BRD §2/§10 proves you served them. If §5 is vague, W6 SCRP and W7 LAAP inherit that vagueness.
+### 4.1 Focus — Stakeholders and Objectives (Step 1 of Day 2)
+> Verbatim from board: "A project that does not know who it serves cannot succeed. A project that cannot state what success looks like cannot ready. Day 2 addresses both gaps directly. You spent Day 1 defining title, overview, problem statement. Today you build human and outcome layers: who is on receiving end, and what specific, observable outcomes must you produce for them?"
+
+- **What you build today:** Two of eleven BRD sections. **Stakeholders (§5)** catalogs every person/group with interest, what each cares about, what each needs. **Objectives (§2)** translates problem statement into 3–5 measurable, testable outcomes.
+- **Quality signal:** Generic list ("users", "partners") = not examined. Named groups with one line on what they need = real BA work. Same for objectives: vague verbs vs testable statements reveal clarity.
+- **Work sequence:** Read two articles → AI guide on stakeholder analysis → six artifact activities MT7–MT12 that fill §5 and §2 in `docs/brd/brd-v0.2.md`.
+- **Keep It Human reminder:** District analyst must understand your BRD in one reading. Short sentences, active voice, named owners.
 
 ### 4.2 Who Are Your Stakeholders? (Identification)
 - **Primary (direct beneficiary, must-win):** District disaster analyst in KSDMA / ASDMA — decides evacuations and relief routing. Uses Bhuvan/MOSDAC tiles daily during monsoon. Success window <3 hours. This is BRD Deliverable BRD1 user.
@@ -54,12 +57,12 @@ Answer two BRD spine questions with precision before defining requirements: who 
 - **Why this matters:** Objectives are the contract that turns stakeholder need into measurable success. W2 Welcome warns top failure is need never defined precisely enough — measurable objectives prevent that.
 - **Test:** Each objective must link to a stakeholder in §5 and a KPI in §10, and must be writable as “What will be measured / Why it matters / Good result” (same form as BRD7).
 
-### 4.5 Day 2 Recap — What Must Be True Before Leaving Day 2
-- [ ] Stakeholder table in `brd-v0.2.md:5` names real orgs/roles, not generic groups, with Must/Should/Could set.
-- [ ] Objectives in `brd-v0.2.md:2` are testable (hours, km², IoU), not adjectives.
+### 4.5 Day 2 Recap — What Must Be True Before Leaving Day 2 (MT12)
+- [ ] Stakeholders in `brd-v0.2.md:5` now has Interest + Need columns (what each cares about + what each needs), not just Role/Need — passes Step 1 "examined precisely" test.
+- [ ] Objectives in `brd-v0.2.md:2` are 5 testable statements (O1 3h, O2 1000km², O3 IoU 0.65, O4 scope, O5 traceability) — each verifiable, per Step 1 requirement.
+- [ ] MT7–MT12 activities logged: MT7 stakeholder long-list, MT8 care/need one-liner, MT9 priority Must/Should/Could, MT10 objectives draft, MT11 testability check, MT12 trace to §10 KPIs.
 - [ ] Used AI to draft/gap-check stakeholders, then human-judged every line per Step 5 rule.
-- [ ] Updated `docs/progress-log.md`; ready to expand MoSCoW and scope on Days 3–4.
-- [ ] In portal: completed Day 2 steps via provided links, then **Complete All Steps** — attendance rule per notice board.
+- [ ] In portal: completed Day 2 steps via provided links, then **Complete All Steps** — attendance rule per notice board (delay may be noted).
 
 ## 5. Method
 - Stayed inside Day 2 scheduled steps only; no extra program content.
