@@ -20,3 +20,9 @@ venv/
 
 # Data (prototype stubs write mock JSON here — do not commit real data)
 data/
+
+# OpenCode — local only, never push
+.opencode/
+opencode.json
+opencode.jsonc
+.opencode.local/
