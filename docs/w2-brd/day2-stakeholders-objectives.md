@@ -27,14 +27,30 @@ Answer two BRD spine questions with precision before defining requirements: who 
 - **Work sequence:** Read two articles → AI guide on stakeholder analysis → six artifact activities MT7–MT12 that fill §5 and §2 in `docs/brd/brd-v0.2.md`.
 - **Keep It Human reminder:** District analyst must understand your BRD in one reading. Short sentences, active voice, named owners.
 
-### 4.2 Who Are Your Stakeholders? (Identification)
-- **Primary (direct beneficiary, must-win):** District disaster analyst in KSDMA / ASDMA — decides evacuations and relief routing. Uses Bhuvan/MOSDAC tiles daily during monsoon. Success window <3 hours. This is BRD Deliverable BRD1 user.
-- **Provider / authority (must-satisfy):** ISRO NRSC (Bhuvan) and SAC (MOSDAC) — data provenance, catalog access, dissemination policy. IN-SPACe — private/academic use framework. Without them, data claim is invalid.
-- **Consumer of BRD (must-support):** W3 RLD, W4 VQRD, W5 PRD owners — they derive research, quality, and product decisions from your stakeholder map. Vague here → vague downstream.
-- **Institutional anchor (should-include):** Christ University faculty research — Long-Range Connection links academic rigor to space-AI application.
-- **Governance (must-comply):** Agnirva / Framewirk — weekly artefacts, Clear Beats Fancy, 30 activities (6/day), attendance rule (Complete Step after form, then Complete All Steps).
-- **Audience handoff (could-serve in W2, must-flag):** Farmers, urban planners, citizens — served indirectly via analyst’s maps; detailed outreach deferred to W6 SCRP after BRD is stable.
-- **Anti-pattern to avoid:** Listing “ISRO, farmers, government, public” without role/need/priority. BRD `brd-v0.2.md:5` already uses table with Role | Need | Priority — keep that precision.
+### 4.2 Who Are Your Stakeholders? (Step 2 Article — BABOK 4 Categories)
+> Definition from article: stakeholder is any person/group/org affected by project, holds influence, or has legitimate interest. BA identifies every stakeholder before design, documents what each cares about, ensures design accounts for them. Missed stakeholders surface later at worst time, at higher cost. Identification ≠ management (management is W6 Community Operations Associate). Article cites BABOK Guide — IIBA.
+
+**01 — The 4 Standard Categories (tick your draft against these; empty category = revisit):**
+- **01 Sponsors & decision-makers** — authorise/fund/cancel. For Agnirva: Agnirva program team + partner institutions. Maps to Agnirva governance + Christ University anchor in `brd-v0.2.md:5`.
+- **02 End users & beneficiaries** — consume/benefit from output. For track: district disaster analyst (KSDMA/ASDMA) — primary user BRD1; for Climate track would be district farmers, for Design track school students by age band. This is the Must-win.
+- **03 Subject matter experts & contributors** — knowledge informs/review validates. For AI for Indian Satellites: ISRO NRSC/SAC scientists, IMD experts, IIT faculty, senior Agnirva alumni — provide Bhuvan/MOSDAC provenance.
+- **04 Adjacent & affected parties** — affected without direct use. For space education guide: other platforms, Ministry of Education, regional language communities (localisation). For flood EO: downstream districts, NDRF, insurers, Kannada/Assamese language citizens.
+
+Quote from article: “A project's hidden stakeholders are the ones who become visible only when something goes wrong. The Business Analyst's job is to find them first.”
+
+**02 — 3 Groups Most Often Missed in First BRDs (≈50% miss rate):**
+- **Operational handler** — owns output after project ends. For Agnirva: editorial & publishing team (needs file format, metadata, citation conventions, accessibility tags). Missing → delivery problem not finished product.
+- **Regulatory/policy stakeholder** — shapes what can be said/how. For education: Ministry of Education / NCERT; for public data: Digital Personal Data Protection Act 2023 compliance; for EO: MOSDAC dissemination policy, Bhuvan access tier, IN-SPACe framework.
+- **Negative stakeholder** — inconvenienced/displaced by success. Example: new free flood map displaces paid intermediary; new guide displaces paid publisher. BA must acknowledge, not pretend.
+
+**03 — For Agnirva Domain Project (minimum 6 named groups, naming discipline):**
+Must include at least: 1) Agnirva program team (sponsor 01), 2) target audience segment — not “everyone” but “district disaster analyst in Karnataka/Assam during monsoon” (beneficiary 02), 3) SMEs whose knowledge cited (03 — ISRO/SAC/IMD), 4) Agnirva editorial/publishing operation (operational handler), 5) partner institutions/communities (Christ University, State Remote Sensing Centre), 6) affected parties specific to domain (NDRF, adjacent districts, localisation communities).
+
+Naming test from article: “Students” is not a stakeholder; “Class 9 students in Hindi-medium government schools in Bihar” is. For your track: not “farmers” but “smallholders in Punjab needing weekly crop stress alert from Resourcesat LISS-3 via Bhuvan.” Check each entry: “If this group disappeared, would objectives still be met?” If yes, remove; if no, keep.
+
+AI acceleration per article: Perplexity finds named institutions/segments, Agnirva Internship Assistant flags generic entries, NotebookLM summarises collected audience material — judgment which groups belong is yours.
+
+Current `brd-v0.2.md:5` updated to tag each row with 01–04 category and to include the three hidden groups (operational handler, regulatory, negative) to pass the 4-category tick test.
 
 ### 4.3 Stakeholder Analysis With AI (How AI Helps, Where Human Judges)
 - **What AI does well here (per Step 5):**
@@ -71,10 +87,12 @@ Answer two BRD spine questions with precision before defining requirements: who 
 
 ## 6. References
 - Agnirva Notice Board — Week 2 Day 2 Focus: Stakeholders and Objectives (accessed 2026-09-08)
+- Agnirva Article — Who Are Your Stakeholders? — W2 Day 2 Step 2 (BABOK 4 categories, 3 missed groups, naming discipline) (accessed 2026-09-08)
 - `docs/w2-brd/week2-welcome-business-analyst.md` — 11 sections, pipeline Need→Synthesis
 - `docs/w2-brd/step2-domain-project-ba-lens.md` — 4-question spine (who = §5, success = §10)
 - `docs/w2-brd/step5-how-ai-changing-ba-role.md` — AI drafts, human judges (applied in 4.3)
 - `docs/brd/brd-v0.2.md:2`, `:5`, `:10` — objectives, stakeholders, KPIs
+- IIBA BABOK Guide — stakeholder categories (01–04) (cited via article)
 - ISRO Bhuvan — https://bhuvan.nrsc.gov.in (accessed 2026-09-05) | MOSDAC — https://www.mosdac.gov.in (accessed 2026-09-05) | IN-SPACe — https://www.inspace.gov.in (accessed 2026-09-05)
 
 ---

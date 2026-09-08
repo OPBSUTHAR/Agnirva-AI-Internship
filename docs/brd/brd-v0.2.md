@@ -43,20 +43,23 @@
   - Topics outside Week 2 scheduled steps and the 30 artifact activities
 - BA lens trace: This section answers BA Q4 "What is in scope, and what is not?" (defensible boundary) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`. Hold solution instinct.
 
-## 5. Stakeholders & Personas — Catalog with Interest and Need (Day 2 fill: MT7–MT12)
-> Day 2 Step 1: Catalog every person/group with interest, what each cares about, and what each needs from the work. Generic groups signal imprecise BA work; named groups with one-line need signal real work. Maps to BRD §5 in Welcome 11-section structure.
+## 5. Stakeholders & Personas — Catalog with Interest and Need (Day 2 fill: MT7–MT12, Step 2 BABOK)
+> Day 2 Steps 1–2: Catalog every person/group with interest, what each cares about, and what each needs. Generic groups signal imprecise work; named groups with one-line need signal real work. Must cover 4 BABOK categories (IIBA) and 3 commonly missed groups. Maps to BRD §5 in Welcome 11-section structure.
 
-| Stakeholder | Role | Cares About (Interest) | Needs From This Work | Priority |
-|-------------|------|------------------------|----------------------|----------|
-| District disaster analyst — KSDMA / ASDMA (primary user, BRD1) | Decisions evacuation & relief routing | Lives saved in <3h window, defensible map for briefing | Validated flood extent polygon with Bhuvan/MOSDAC lineage (tile ID, time, sensor) | Must |
-| ISRO NRSC (Bhuvan) / SAC (MOSDAC) | Data provider & provenance | Correct citation, proper use of open vs restricted tiers | Documentation of source tier, catalog link, access date per tile | Must |
-| IN-SPACe | Regulator / enabler | Compliant private/academic use of space data | Framework reference showing V1 stays within permitted use | Must |
-| IMD (weather context) | Adjacent data provider | Rainfall context for flood interpretation | Cited IMD input where used, not conflated with EO extent | Should |
-| Christ University — Faculty Research | Institutional anchor | Research linkage Long-Range Connection | Traceable BRD that connects academic rigor to space-AI application | Should |
-| Agnirva / Framewirk program | Delivery governance | Weekly artefacts, Clear Beats Fancy, micro-movement cadence | BRD v0.2 with 11 sections, 6 activities/day, attendance via Complete All Steps | Must |
-| Downstream hats — RLD / VQRD / PRD owners | Consumer of BRD | Clear, testable requirements to derive next artefacts | Requirements table (MoSCoW) with stakeholder + metric trace | Must |
-| Citizen / public audience | Audience (W6–W7 handoff) | Accessible, localized insight | Flag for SCRP/LAAP handoff, not built in V1 | Could |
-- Day 2 trace: Generic "users/partners" replaced by named groups above. Each row now answers interest + need + priority — test of precise examination per Step 1 article.
+| Stakeholder | BABOK Category | Role | Cares About (Interest) | Needs From This Work | Priority |
+|-------------|----------------|------|------------------------|----------------------|----------|
+| District disaster analyst — KSDMA / ASDMA (primary user, BRD1) | 02 End user/beneficiary | Decides evacuation & relief routing | Lives saved in <3h window, defensible map for briefing | Validated flood extent polygon with Bhuvan/MOSDAC lineage (tile ID, time, sensor) | Must |
+| ISRO NRSC (Bhuvan) / SAC (MOSDAC) | 03 SME/contributor + 04 Adjacent | Data provider & provenance | Correct citation, proper use of open vs restricted tiers | Documentation of source tier, catalog link, access date per tile | Must |
+| IN-SPACe | 04 Adjacent / regulatory | Regulator / enabler | Compliant private/academic use of space data | Framework reference showing V1 stays within permitted use | Must |
+| IMD (weather context) | 03 SME/contributor | Adjacent data provider | Rainfall context for flood interpretation | Cited IMD input where used, not conflated with EO extent | Should |
+| Christ University — Faculty Research | 01 Sponsor/decision-maker | Institutional anchor | Research linkage Long-Range Connection | Traceable BRD that connects academic rigor to space-AI application | Should |
+| Agnirva / Framewirk program | 01 Sponsor/decision-maker | Delivery governance | Weekly artefacts, Clear Beats Fancy, micro-movement cadence | BRD v0.2 with 11 sections, 6 activities/day, attendance via Complete All Steps | Must |
+| Agnirva Editorial & Publishing operation | Hidden — operational handler (§02) | Owner post-project | File format, metadata, citation conventions, accessibility tags | BRD anticipates handoff format, not just content | Must |
+| MOSDAC/Bhuvan policy + DPDP Act 2023 | Hidden — regulatory (§02) | Policy constraint | What can be published/how | Out-of-scope note and evidence rule in §9/§11 compliance | Must |
+| Paid map/intermediary providers | Hidden — negative stakeholder (§02) | Displaced by free validated map | Acknowledged, not pretended away; engagement deferred to W6 | Could |
+| Downstream hats — RLD / VQRD / PRD owners | 01 Sponsor + 03 SME | Consumer of BRD | Clear, testable requirements to derive next artefacts | Requirements table (MoSCoW) with stakeholder + metric trace | Must |
+| Citizen / regional language communities | 04 Adjacent/affected | Audience (W6–W7 handoff) | Accessible, localized insight (Kannada/Assamese) | Flag for SCRP/LAAP handoff, not built in V1 | Could |
+- Day 2 trace: Generic "users/partners" replaced by named groups above. Each row now answers interest + need + priority — test of precise examination per Step 1 article. Four BABOK categories ticked (01–04 all represented); three hidden groups added per Step 2 §02 — see `docs/w2-brd/day2-stakeholders-objectives.md:4.2`.
 - BA lens trace: This section answers BA Q2 "Who experiences that need?" (precision-named persons/orgs) — see `docs/w2-brd/step2-domain-project-ba-lens.md:4`.
 
 ## 6. Requirements (MoSCoW) — Draft (expand Day 2–3 to 10–12 items)
