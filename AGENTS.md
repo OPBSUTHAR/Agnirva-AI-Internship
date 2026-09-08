@@ -88,7 +88,7 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Keep `README.md` synced with progress (badges, status table, quick links).
 - Commit messages: `docs(w2-brd): <movement> — <output>` or `feat(brd): ...` style.
 - This repo will be pushed to `https://github.com/OPBSUTHAR/<repo-name>` — keep it public-ready.
-- **Push cadence (user rule): Batch pushes every 15 commits.** Commit locally after each micro-movement, but `git push` only after 15 commits accumulate (or on explicit user request). Track count via `git log origin/main..HEAD --oneline | wc -l`.
+- **Push cadence (user rule): Batch pushes every 8 commits.** Commit locally after each micro-movement, but `git push` only after 8 commits accumulate (or on explicit user request). Track count via `git log origin/main..HEAD --oneline | wc -l`.
 
 ### 4.5 Interaction Rules
 - Ask clarifying questions with the `question` tool when scope is ambiguous.
@@ -113,4 +113,4 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Do not delete history — append.
 
 ---
-*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D3 done — scope/assumptions/constraints, 19 ahead (push due at 15, holding per rule)*
+*Last updated: 2026-09-08 | Status: W2 D3 done — scope/assumptions/constraints, 20 ahead (push at 8, pushing now)*
