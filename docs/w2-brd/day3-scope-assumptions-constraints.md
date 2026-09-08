@@ -105,12 +105,15 @@ Close: "Risk register not write once and file. Read weekly: have any materialise
 
 Applied to this project: `docs/brd/brd-v0.2.md:7` currently 6 assumptions will be expanded to 7 covering audience/source/institutional/tool/timeline with testable conditions; `:9` 5 risks will be expanded to 7 with probability/impact/mitigation + assumption inverses, per MT14–MT17.
 
-### 4.5 Day 3 Recap — What Must Be True Before Leaving Day 3 (MT18)
-- [ ] Scope in `brd-v0.2.md:4` has explicit In and Out lists — Out is not implied absence but stated commitment.
-- [ ] Assumptions in `brd-v0.2.md:7` are numbered, falsifiable, with validation step and owner.
-- [ ] Constraints in `brd-v0.2.md:8` name hard limits (Bhuvan/MOSDAC tiers, student compute, latency hours vs days, 5 days / 30 activities).
-- [ ] Risks in `brd-v0.2.md:9` map directly from assumptions, each with impact + mitigation + owner — no orphan risks.
-- [ ] In portal: completed Day 3 steps via provided links, then **Complete All Steps** — attendance rule per notice board.
+### 4.5 Day 3 Recap — Step 6 (5 of 11 Sections Finish)
+> Verbatim: "Today Scope, Assumptions, and Constraints moved blank→drafted. Five of eleven BRD sections now finish. Project no longer just definition of what to do. Document can be defended when stakeholders ask for additions, assumptions turn wrong, constraints become binding. This matters because later weeks lean on these three most. W4 Quality Analyst uses scope to know what to test/ignore. W5 Product Analyst uses constraints to know what solutions realistic. W6 Community Operations uses assumptions to know which stakeholder relationships depends on. Loose work in any three creates hard-to-recover downstream confusion. Day 4 turns to heart: Requirements (what output must contain/do) and Risk Register (what could go wrong and how manage) — two sections most consulted downstream, senior reviewer reads first."
+
+**What must be true before leaving Day 3 (MT18 check):**
+- [ ] Scope `docs/brd/brd-v0.2.md:4` has explicit In and Out per 6-item checklist — defensible under addition pressure.
+- [ ] Assumptions `docs/brd/brd-v0.2.md:7` 7 bets are numbered, falsifiable, with If-False + verification + owner.
+- [ ] Constraints `docs/brd/brd-v0.2.md:8` name hard limits (Bhuvan/MOSDAC tiers, student compute, latency 3h, 5 days / 30 activities) + dependencies.
+- [ ] Risks `docs/brd/brd-v0.2.md:9` 7 risks have Prob/Impact/Mitigation/Owner and Inverses link to assumptions — no orphans.
+- [ ] In portal: completed Day 3 steps via provided links, then **Complete All Steps** — attendance rule per notice board (delay noted). Next: Day 4 Requirements + Risk Register deep-dive (heart of BRD, most consulted).
 
 ## 5. Method
 - Stayed inside Day 3 scheduled steps only; no extra program content.
