@@ -52,16 +52,29 @@ AI acceleration per article: Perplexity finds named institutions/segments, Agnir
 
 Current `brd-v0.2.md:5` updated to tag each row with 01–04 category and to include the three hidden groups (operational handler, regulatory, negative) to pass the 4-category tick test.
 
-### 4.3 Stakeholder Analysis With AI (How AI Helps, Where Human Judges)
-- **What AI does well here (per Step 5):**
-  - Draft stakeholder long-list from your problem statement and Indian satellite context (e.g., expand KSDMA → district admin, IMD, state remote sensing centre).
-  - Propose influence/interest placement and suggest missing voices (e.g., ground validation team).
-  - Check consistency — flag that “citizen” is marked Must while BRD scope says W2 is district-only.
-- **What AI cannot replace (human owns):**
-  - Choosing Must vs Could — only you decide who must win in V1.
-  - Detecting missing stakeholder info — AI won’t know you lack a Kannada field volunteer persona.
-  - Owning sign-off — analyst’s acceptance criteria must be validated with human logic, not generated text.
-- **Workflow to use:** Prompt AI with BRD §3 + §5 draft → ask for gaps, conflicts, and citation needs → edit every line → keep source links (Bhuvan/MOSDAC doc dates). AI = collaborator, not author. This mirrors `docs/w2-brd/step5-how-ai-changing-ba-role.md:6` workflow already traced in BRD §7/§9.
+### 4.3 Stakeholder Analysis With AI (Step 3 Guide — W2 Day 2 Step 3)
+> Verbatim lead: "One of the BA tasks that changed most in past 3 years. Half-day sticky-note workshop → 5-minute prompt with right tool. Used well, richer first draft than full pre-AI day. Used badly, generic plausible list that doesn't match context."
+
+**01 — What AI Now Does Well (4 kinds, draft stage accelerated from authoring to editing):**
+- **Candidate generation** — Perplexity/Gemini from project description produces first-pass list including categories you may miss (regulatory bodies, adjacent platforms).
+- **Interest & concern summaries** — one-line draft per stakeholder of what group typically cares about → your refinement start point.
+- **Power/influence mapping** — ranking by likely influence over success + interest in outcomes → quadrant map to review/adjust.
+- **Gap detection** — Agnirva Internship Assistant compares your draft vs typical set for project type, flags missing groups.
+
+Pattern: AI accelerates draft, rarely final answer, changes economics to editing.
+
+**02 — What AI Cannot Replace (3 limits):**
+- **Cannot identify actual stakeholders** — doesn't know your specific partners, communities reached, named individuals. Model suggests "regional language communities"; you must add "Telugu-speaking learners in Andhra Pradesh coastal districts."
+- **Cannot judge relative weight** — doesn't know editorial team's citation format matters while hypothetical international agency doesn't. Weighting needs your context.
+- **Cannot anticipate negative stakeholders in your specific situation** — requires local landscape knowledge. AI suggests categories; naming actual displaced group is your job.
+
+**03 — Workflow Agnirva Interns Use for MT7–MT12:**
+1. Paste Day 1 overview + problem statement + objectives into Agnirva Internship Assistant (or Perplexity). Ask for candidate list grouped by 4 categories from Step 2.
+2. Review line by line: strike anything not specifically applicable; add anything specific tool missed (e.g., State Remote Sensing Centre, Kannada field volunteer).
+3. For each surviving stakeholder, ask tool to draft one-line need statement → edit until specific enough to act on. Test: "needs accurate information" = not specific. "needs verifiable ISRO mission dates with cited sources for Grade 9 textbook alignment" = specific. For EO: "needs Bhuvan tile ID + time + sensor per polygon for <3h briefing" is specific.
+4. Final verification pass with Perplexity: confirm each named institution/community exists, correctly named, still active (models hallucinate entities). 3-minute check prevents citation embarrassment in final BRD.
+
+Applied to this project: candidate flood stakeholders (NDRF, KSDMA, NRSC, SAC, IMD, IN-SPACe) drafted via AI, then human-filtered to 11 rows in `docs/brd/brd-v0.2.md:5` with Interest+Need columns. AI = collaborator, not author — see `docs/w2-brd/step5-how-ai-changing-ba-role.md:6` workflow traced in BRD §7/§9.
 
 ### 4.4 Objectives That Actually Mean Something (From Vague to Testable)
 - **Bad objective:** “Improve flood mapping with AI.” Not testable. No owner. No time.
