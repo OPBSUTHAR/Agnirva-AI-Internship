@@ -76,15 +76,38 @@ Pattern: AI accelerates draft, rarely final answer, changes economics to editing
 
 Applied to this project: candidate flood stakeholders (NDRF, KSDMA, NRSC, SAC, IMD, IN-SPACe) drafted via AI, then human-filtered to 11 rows in `docs/brd/brd-v0.2.md:5` with Interest+Need columns. AI = collaborator, not author — see `docs/w2-brd/step5-how-ai-changing-ba-role.md:6` workflow traced in BRD §7/§9.
 
-### 4.4 Objectives That Actually Mean Something (From Vague to Testable)
-- **Bad objective:** “Improve flood mapping with AI.” Not testable. No owner. No time.
-- **Good objectives for this BRD (trace to §2 and §10):**
-  - O1 — Deliver validated district flood extent map within 3 hours of overpass, with tile lineage (Bhuvan/MOSDAC ID, time, sensor) attached.
-  - O2 — Cover ≥1000 km² per run from 2–3 tiles without hand digitization, CRS EPSG:4326 consistent.
-  - O3 — Achieve IoU ≥0.65 against 10% hand-digitized validation sample, with citations for every polygon.
-  - O4 — Keep V1 scope to one state / one monsoon window; log assumptions and out-of-scope items to prevent creep.
-- **Why this matters:** Objectives are the contract that turns stakeholder need into measurable success. W2 Welcome warns top failure is need never defined precisely enough — measurable objectives prevent that.
-- **Test:** Each objective must link to a stakeholder in §5 and a KPI in §10, and must be writable as “What will be measured / Why it matters / Good result” (same form as BRD7).
+### 4.4 Objectives That Actually Mean Something (Step 4 Article — SMART + Failure Modes)
+> Definition from article: "Objective is measurable, observable outcome, written so two independent reviewers agree whether met. Converts problem into testable claims. Without testable objectives, project can be finished without anyone able to say whether it succeeded."
+
+**Aspiration vs Objective:** "Improve student understanding of space science" = wish, not testable. "Publish ten 800-word explainers covering ten specified ISRO missions, each reviewed by SME and rated ≥4/5 by grade 9 sample" = commitment, testable.
+
+**01 — SMART Format and Limits (taught at TCS, Infosys, Wipro, Cognizant for 3+ decades):**
+- **S Specific** — names deliverable + audience + condition. Not "more content" but "ten explainers for grade 9 students."
+- **M Measurable** — includes number/threshold/verifiable state. Not "high quality" but "rated 4+ by 80% reviewers."
+- **A Achievable** — realistic for time/resources. Not "10,000 explainers" for 5-day week but "ten explainers."
+- **R Relevant** — connects directly to problem + stakeholder need. Not tangential impressive goal.
+- **T Time-bound** — specifies when. Not "eventually" but "by Friday Week 7."
+
+Limit: SMART passes format while measuring wrong thing. Common failure is measuring outputs ("publish ten explainers") when stakeholders care about outcomes ("reach 5,000 grade 9 students who rate useful"). Quote: "A project objective that cannot be tested is a project objective that cannot fail. Projects that cannot fail also cannot succeed in any meaningful sense."
+
+**02 — 3 Common Failure Modes in First-Draft BRDs:**
+- **Activity disguised as outcome** — "Conduct research on Indian space missions" (activity) vs "Produce research-validated catalog of 25 missions with cited sources" (outcome). Fix: ask "what would I show to prove done?" Process = activity, artefact/state = outcome.
+- **Immeasurable adjective** — "improved, enhanced, better, comprehensive, robust, engaging" without defined meaning. Fix: replace with number/threshold/comparison.
+- **Unowned objective** — no specific stakeholder agreed they care; BA's preference imported. Fix: trace each objective back to stakeholder list entry.
+
+**03 — What Good Agnirva Objectives Look Like (3–5, each passes measured + traced tests):**
+- Climate track example: "Produce Telugu and English district-level monsoon explainer covering Krishna and Godavari basins, validated by ≥2 state agriculture sources and reviewed by ≥3 farming contacts."
+- Design track example: "Publish six visual explainers on Chandrayaan-3 phases, each rated ≥4/5 by 25 grade 9 students, text editable in three Indian languages by Week 7."
+- Discipline: name deliverable + audience + verification precisely.
+
+**Applied to this BRD (§2 now 5 objectives, all SMART and owned):**
+- O1 — Deliver validated district flood map within 3 hours of overpass, with tile lineage attached. Traces to KSDMA analyst (02), verified by timestamp diff.
+- O2 — Cover ≥1000 km² per run from 2–3 tiles without hand digitization, CRS consistent. Traces to analyst + publishing handler, verified by area calc.
+- O3 — IoU ≥0.65 vs 10% hand-digitized sample, every polygon cited. Traces to NRSC/SAC SMEs, verified by sample IoU.
+- O4 — Keep V1 to one state / one monsoon window with assumptions logged. Traces to Framewirk governance, verified by §4/§8 trace.
+- O5 — Traceability: every Must links to stakeholder + metric + citation. Traces to downstream hats (RLD/VQRD/PRD), verified by matrix review.
+
+**AI help:** Agnirva Internship Assistant reviews drafts against SMART + 3 failure modes, returns edits list; Gemini translates loose ("should be useful for students") → testable ("must include ≥3 named ISRO missions with dates verified against ISRO archive"). Judgment which version commits remains yours. Handover test: give objective to outsider, ask "how would you check?" Clear test description = well written.
 
 ### 4.5 Day 2 Recap — What Must Be True Before Leaving Day 2 (MT12)
 - [ ] Stakeholders in `brd-v0.2.md:5` now has Interest + Need columns (what each cares about + what each needs), not just Role/Need — passes Step 1 "examined precisely" test.
@@ -101,6 +124,7 @@ Applied to this project: candidate flood stakeholders (NDRF, KSDMA, NRSC, SAC, I
 ## 6. References
 - Agnirva Notice Board — Week 2 Day 2 Focus: Stakeholders and Objectives (accessed 2026-09-08)
 - Agnirva Article — Who Are Your Stakeholders? — W2 Day 2 Step 2 (BABOK 4 categories, 3 missed groups, naming discipline) (accessed 2026-09-08)
+- Agnirva Article — Objectives That Actually Mean Something — W2 Day 2 Step 4 (SMART, 3 failure modes, handover test) (accessed 2026-09-08)
 - `docs/w2-brd/week2-welcome-business-analyst.md` — 11 sections, pipeline Need→Synthesis
 - `docs/w2-brd/step2-domain-project-ba-lens.md` — 4-question spine (who = §5, success = §10)
 - `docs/w2-brd/step5-how-ai-changing-ba-role.md` — AI drafts, human judges (applied in 4.3)
