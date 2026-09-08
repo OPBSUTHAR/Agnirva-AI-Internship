@@ -28,6 +28,12 @@
 | 2026-09-08 | W2 Day 1 → Day 2 | BRD deliverable consolidation — single draft, 80/90/120 minimums met, BRD4/BRD7 structured per form, duplicate removed | `docs/brd/brd-deliverable-form-draft.md` | Updated (consolidated) | Use for Day 2 form submission |
 | 2026-09-08 | W2 — Security | Untrack opencode local config — remove opencode.json from git, keep locally, ignore .opencode/ per instructions | `.gitignore`, `opencode.json` (untracked) | Committed eb97dee (not pushed, 7 ahead) | Push batched at 15 |
 | 2026-09-08 | W2 Day 2 Business Analyst | Stakeholders and Objectives — Who Are Stakeholders, Analysis With AI, Objectives That Mean Something, Recap (5 steps) + Keep It Human | `docs/w2-brd/day2-stakeholders-objectives.md` | Completed | Click Complete All Steps for Day 2 attendance |
+| 2026-09-08 | W2 Day 2 Step 1 | Focus — Stakeholders and Objectives (MT7–MT12) — In/Out vs interest+need, 5 testable objectives | `docs/brd/brd-v0.2.md:2`, `:5`, `docs/w2-brd/day2-stakeholders-objectives.md:4.1` | Completed | Continue Day 2 chain |
+| 2026-09-08 | W2 Day 2 Step 2 | Who Are Your Stakeholders — BABOK 4 categories (IIBA 01–04), 3 hidden groups, naming discipline | `docs/w2-brd/day2-stakeholders-objectives.md:4.2`, `docs/brd/brd-v0.2.md:5` | Completed | Add operational/regulatory/negative rows |
+| 2026-09-08 | W2 Day 2 Step 3 | Stakeholder Analysis With AI — 4 does-well, 3 cannot, 4-step workflow MT7–MT12 | `docs/w2-brd/day2-stakeholders-objectives.md:4.3` | Completed | Apply workflow to §5 |
+| 2026-09-08 | W2 Day 2 Step 4 | Objectives That Actually Mean Something — SMART (TCS/Infosys/Wipro/Cognizant), 3 failures, handover test | `docs/w2-brd/day2-stakeholders-objectives.md:4.4`, `docs/brd/brd-v0.2.md:2` | Completed | Verify O1–O5 SMART + traced |
+| 2026-09-08 | W2 Day 2 Step 6 | Day 2 Recap — anchored §5+§2, downstream W3/W5/W6/W7 dependency, Day 3 scope preview | `docs/w2-brd/day2-stakeholders-objectives.md:4.5` | Completed | Click Complete All Steps Day 2 |
+| 2026-09-08 | W2 Day 3 Business Analyst | Scope, Assumptions, and Constraints — Focus (You Are Building Range) | `docs/w2-brd/day3-scope-assumptions-constraints.md` | Started (scaffold) | Fill Steps 2–4 verbatim then MT13–MT18 |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.

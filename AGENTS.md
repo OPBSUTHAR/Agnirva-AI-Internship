@@ -37,7 +37,12 @@ Week 1 was Orientation (Days 1–5).
   - Roadmap, 6-hat methodology, and Clear Beats Fancy internalized
   - Weekly Status Report prepared for W1→W2 transition
 
-- **Active Status (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 2 IN PROGRESS (Stakeholders & Objectives)**
+- **Active Status (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 2 COMPLETED, Day 3 IN PROGRESS (Scope, Assumptions, Constraints)**
+  - Day 2 completed 2026-09-08: All 6 steps via `docs/w2-brd/day2-stakeholders-objectives.md:1` — Focus (MT7-12, Keep It Human), Who Are Stakeholders (BABOK 4 cats 01-04 + 3 hidden groups, naming discipline), Analysis With AI (4 does-well, 3 cannot, 4-step workflow), Objectives That Mean Something (SMART TCS/Infosys/Wipro/Cognizant, 3 failures, handover test, O1-O5 SMART), Recap (anchored §5+§2 → W3/W5/W6/W7, Day 3 preview). BRD `docs/brd/brd-v0.2.md:2` and `:5` hardened accordingly.
+  - Day 3 started: `docs/w2-brd/day3-scope-assumptions-constraints.md:1` scaffold — You Are Building Range, 5 steps (Focus, Art of Scope, Cost of Skipping BRD, Assumptions & Risks, Recap), maps to `docs/brd/brd-v0.2.md:4`, `:7`, `:8`, `:9` (MT13-18). Awaiting Step 2-4 verbatim.
+  - Previous Day 2 active preserved below —
+
+- **Completed (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 2 COMPLETED (Stakeholders & Objectives)**
   - Day 2 captured: `docs/w2-brd/day2-stakeholders-objectives.md:1` — 5 steps (Focus, Who Are Stakeholders, Analysis With AI, Objectives That Mean Something, Recap), Keep It Human, stakeholder table refined, AI draft→judge workflow, 4 testable objectives (3h / 1000km² / IoU 0.65).
   - BRD deliverable consolidated 2026-09-08: `docs/brd/brd-deliverable-form-draft.md:1` now meets minimums (BRD1 98w/80, BRD2 98w/90, BRD3 95w/90, BRD5 106w/80, BRD6 120w/80, BRD8 123w/120) with BRD4/BRD7 structured per form; duplicate `brd-deliverable-form-short.md` removed.
   - Security: `opencode.json:1` untracked (was on origin/main 52b5e88), ` .opencode/` ignored via `.gitignore:25` — committed eb97dee locally, 7 ahead, not pushed per 15-commit batch rule. Local copies kept.
@@ -107,4 +112,4 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Do not delete history — append.
 
 ---
-*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D2 done — stakeholders & objectives, BRD deliverable consolidated, opencode untracked, 7 ahead*
+*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D2 done, D3 scaffolded — scope/assumptions/constraints, 13 ahead*
