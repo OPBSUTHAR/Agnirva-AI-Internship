@@ -34,6 +34,11 @@
 | 2026-09-08 | W2 Day 2 Step 4 | Objectives That Actually Mean Something — SMART (TCS/Infosys/Wipro/Cognizant), 3 failures, handover test | `docs/w2-brd/day2-stakeholders-objectives.md:4.4`, `docs/brd/brd-v0.2.md:2` | Completed | Verify O1–O5 SMART + traced |
 | 2026-09-08 | W2 Day 2 Step 6 | Day 2 Recap — anchored §5+§2, downstream W3/W5/W6/W7 dependency, Day 3 scope preview | `docs/w2-brd/day2-stakeholders-objectives.md:4.5` | Completed | Click Complete All Steps Day 2 |
 | 2026-09-08 | W2 Day 3 Business Analyst | Scope, Assumptions, and Constraints — Focus (You Are Building Range) | `docs/w2-brd/day3-scope-assumptions-constraints.md` | Started (scaffold) | Fill Steps 2–4 verbatim then MT13–MT18 |
+| 2026-09-08 | W2 Day 3 Step 1 | Focus — Scope, Assumptions, Constraints (scope statement that grows->fails, In/Out boundary, MT13–MT18) | `docs/w2-brd/day3-scope-assumptions-constraints.md:4.1` | Completed | Art of Scope next |
+| 2026-09-08 | W2 Day 3 Step 2 | Art of Scope: Why Saying No is BA superpower — 2 halves, Krishna example, 6-item checklist, 3 costs, holds test | `docs/w2-brd/day3-scope-assumptions-constraints.md:4.2`, `docs/brd/brd-v0.2.md:4` | Completed | Cost of Skipping BRD |
+| 2026-09-08 | W2 Day 3 Step 3 | Cost of Skipping BRD — PMI Pulse, 3 failures (divergent models/repeated scope/undefined success), 10x–100x compounding | `docs/w2-brd/day3-scope-assumptions-constraints.md:4.3` | Completed | Assumptions & Risks |
+| 2026-09-08 | W2 Day 3 Step 4 | Assumptions and Risks — 7 bets (5 categories), Risk Register 4 fields, assumption→risk inverse, weekly review | `docs/w2-brd/day3-scope-assumptions-constraints.md:4.4`, `docs/brd/brd-v0.2.md:7`, `:9` | Completed | Day 3 Recap |
+| 2026-09-08 | W2 Day 3 Step 6 | Day 3 Recap — 5 of 11 finish, defensible scope, W4/W5/W6 lean on this, Day 4 Requirements | `docs/w2-brd/day3-scope-assumptions-constraints.md:4.5` | Completed | Click Complete All Steps Day 3 |
 
 ### Ledger Rules
 - Update on every turn. No progress is real until logged here.

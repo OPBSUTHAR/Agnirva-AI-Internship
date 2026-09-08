@@ -37,7 +37,8 @@ Week 1 was Orientation (Days 1–5).
   - Roadmap, 6-hat methodology, and Clear Beats Fancy internalized
   - Weekly Status Report prepared for W1→W2 transition
 
-- **Active Status (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 2 COMPLETED, Day 3 IN PROGRESS (Scope, Assumptions, Constraints)**
+- **Active Status (as of 2026-09-08):** **Week 2 — Business Analyst (BRD) — Day 3 COMPLETED (Scope, Assumptions, Constraints)**
+  - Day 3 completed 2026-09-08: All 6 steps via `docs/w2-brd/day3-scope-assumptions-constraints.md:1` — Focus (scope statement grows→fails, In/Out boundary), Art of Scope (In/Out halves, Krishna example, 6-item checklist, 3 costs, holds test TCS/Infosys/Wipro), Cost of Skipping BRD (PMI Pulse, 3 failures divergent models/repeated scope/undefined success, 10x–100x compounding, what BRD prevents), Assumptions & Risks (7 bets across 5 categories, Risk Register Prob/Impact/Mitigation, assumption↔risk inverses, weekly review), Recap (5 of 11 sections finish, defensible scope for W4/W5/W6, Day 4 heart: Requirements & Risk Register). BRD `docs/brd/brd-v0.2.md:4`, `:7`, `:8`, `:9` hardened accordingly.
   - Day 2 completed 2026-09-08: All 6 steps via `docs/w2-brd/day2-stakeholders-objectives.md:1` — Focus (MT7-12, Keep It Human), Who Are Stakeholders (BABOK 4 cats 01-04 + 3 hidden groups, naming discipline), Analysis With AI (4 does-well, 3 cannot, 4-step workflow), Objectives That Mean Something (SMART TCS/Infosys/Wipro/Cognizant, 3 failures, handover test, O1-O5 SMART), Recap (anchored §5+§2 → W3/W5/W6/W7, Day 3 preview). BRD `docs/brd/brd-v0.2.md:2` and `:5` hardened accordingly.
   - Day 3 started: `docs/w2-brd/day3-scope-assumptions-constraints.md:1` scaffold — You Are Building Range, 5 steps (Focus, Art of Scope, Cost of Skipping BRD, Assumptions & Risks, Recap), maps to `docs/brd/brd-v0.2.md:4`, `:7`, `:8`, `:9` (MT13-18). Awaiting Step 2-4 verbatim.
   - Previous Day 2 active preserved below —
@@ -112,4 +113,4 @@ Update this table on every turn. No progress is real until documented in `/docs/
 - Do not delete history — append.
 
 ---
-*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D2 done, D3 scaffolded — scope/assumptions/constraints, 13 ahead*
+*Last updated: 2026-09-08 | Updated by: Muse Spark agent | Status: W2 D3 done — scope/assumptions/constraints, 19 ahead (push due at 15, holding per rule)*
