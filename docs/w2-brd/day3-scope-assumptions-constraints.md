@@ -53,9 +53,29 @@ Holds test: imagine request at week 6, open scope statement — would this be cl
 
 Applied to this project (`docs/brd/brd-v0.2.md:4` already lists Out: real-time rescue routing, multi-state, model training/deployment, Kannada/Assamese alerts (W7) — now hardened to 6-item checklist + specific flood In: "1 district flood extent polygon per overpass, PDF+GeoJSON, Bhuvan/MOSDAC lineage, 3h window, June–Sept monsoon 2026" vs Out as above). MT13 maps to this §4.2.
 
-### 4.3 The Cost of Skipping the BRD
-- Placeholder for Step 3 article — to be filled when user provides Step 3 content. Expected themes: exponential cost of late fixes, failure patterns when need not defined precisely, why W2 BRD is spine for W3–W7.
-- Already traced in BRD §7 assumption: "BA holds problem space open; cost of late fix grows exponentially" (`docs/w2-brd/step3-what-is-a-business-analyst.md:5`) and §9 risk: "AI draft left unjudged."
+### 4.3 The Cost of Skipping the BRD (Step 3 Article)
+> Lead: "Cost is not abstract — documented measurable pattern across PMI Pulse of the Profession reports for two decades: projects with clearly defined requirements significantly more likely on time, within budget, stakeholder satisfied. Patterns observed including at TCS, Infosys, Wipro, HCL, Tech Mahindra where discipline refined because cost so well understood."
+
+**01 — Three Failure Patterns (in order, each leads to next):**
+- **Divergent mental models** — designer imagines one audience, content lead another, quality reviewer applies never-agreed criteria. Outputs don't fit because starting assumptions never explicit. Compounds weekly; by visibility, significant effort needs correction/discard.
+- **Repeated scope decisions** — without agreed signed-off scope, "should this topic be covered? is audience in scope? does quality standard apply?" Each decision informal, inconsistent, unrecorded; different people at different times → project grows unexpectedly / contradicts itself.
+- **Undefined success** — if success never formally defined, at end no basis to evaluate achieved. Teams produce technically sound outputs that don't address original need because need never formally stated. Delivered but unanswerable whether succeeded.
+
+**02 — Why Costs Compound (10x–100x multiplier):**
+Misunderstanding caught in BRD phase costs single conversation. Same caught after design costs days redesign; after development weeks rework; after launch can cost credibility entirely. PMBOK + BABOK summarise multiplier 10x–100x depending how late surfaces. Why senior BAs at Cognizant/Tech Mahindra spend so much time on BRD even on aggressive timelines — time invested recovered many times over by avoiding rework.
+
+Quote: "A misunderstanding caught at requirements phase costs a conversation. Same misunderstanding caught after launch costs the project. BRD catches misunderstandings while still cheap."
+
+**03 — What BRD Actually Prevents (maps to sections):**
+- Prevents **divergent models** via Project Overview + Problem Statement + Stakeholders — same starting picture; when designer vs content lead disagree on audience, open BRD same definition → resolves or escalates, not hidden.
+- Prevents **repeated scope decisions** via Scope §4 In/Out — when addition request arrives, BA can point and accept formally with trade-offs or refuse with clear reason; decision conscious not drift.
+- Prevents **undefined success** via Objectives §2 + Success Metrics §10 — translate problem into testable criteria; at end team returns and asks yes/no/partial with evidence.
+
+Agility note: Agnirva BRD includes all sections precisely because each prevents known failure. AI tools (Internship Assistant, Perplexity, Gemini, NotebookLM) make drafting faster than ever; discipline same as pre-AI: define precisely, write down In/Out, agree success upfront, refer throughout execution.
+
+Close: "BRD is not deliverable to be finished and filed away. It is reference team returns to whenever decision must be made. BRD written, signed off, never opened again = wasted. BRD opened weekly to resolve disagreements = doing job."
+
+Applied: `docs/brd/brd-v0.2.md` already holds problem space open per `docs/w2-brd/step3-what-is-a-business-analyst.md:5` (§7) and AI-without-judgment risk (§9) — Step 3 explains why those prevent compounding costs. MT15 maps here.
 
 ### 4.4 Assumptions and Risks: Planning for What Could Go Wrong
 - Placeholder for Step 4 guide — to be filled when user provides Step 4 content. Expected: assumption → risk → mitigation mapping, validation plan for each assumption (catalog access, latency, availability).
