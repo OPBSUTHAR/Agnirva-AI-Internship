@@ -109,12 +109,15 @@ Limit: SMART passes format while measuring wrong thing. Common failure is measur
 
 **AI help:** Agnirva Internship Assistant reviews drafts against SMART + 3 failure modes, returns edits list; Gemini translates loose ("should be useful for students") → testable ("must include ≥3 named ISRO missions with dates verified against ISRO archive"). Judgment which version commits remains yours. Handover test: give objective to outsider, ask "how would you check?" Clear test description = well written.
 
-### 4.5 Day 2 Recap — What Must Be True Before Leaving Day 2 (MT12)
-- [ ] Stakeholders in `brd-v0.2.md:5` now has Interest + Need columns (what each cares about + what each needs), not just Role/Need — passes Step 1 "examined precisely" test.
-- [ ] Objectives in `brd-v0.2.md:2` are 5 testable statements (O1 3h, O2 1000km², O3 IoU 0.65, O4 scope, O5 traceability) — each verifiable, per Step 1 requirement.
-- [ ] MT7–MT12 activities logged: MT7 stakeholder long-list, MT8 care/need one-liner, MT9 priority Must/Should/Could, MT10 objectives draft, MT11 testability check, MT12 trace to §10 KPIs.
-- [ ] Used AI to draft/gap-check stakeholders, then human-judged every line per Step 5 rule.
-- [ ] In portal: completed Day 2 steps via provided links, then **Complete All Steps** — attendance rule per notice board (delay may be noted).
+### 4.5 Day 2 Recap — Step 6 (Anchored Audience + Testable Outcomes)
+> Verbatim: "Today Stakeholders (§5) and Objectives (§2) moved from blank to drafted. Project now anchored in specific audience and committed to specific, testable outcomes. This matters because every artefact Weeks 3–7 depends on these two sections being precise. SWOT (W3) is relative to these stakeholders. PRD (W5) designs product that delivers these objectives. Engagement Plan (W6) is built directly on this list. Localization Kit (W7) prioritises by these audiences. Without precision here, every downstream artefact inherits imprecision. Day 3 turns to discipline that protects this work: scope — what project includes, explicitly excludes, assumptions about world, constraints within. Scope determines whether project finishes on time or quietly grows beyond deliverable."
+
+**What must be true before leaving Day 2 (MT12 check):**
+- [ ] Stakeholders in `docs/brd/brd-v0.2.md:5` has Interest + Need columns, 11 rows tagged 01–04 BABOK, 3 hidden groups included — passes Step 1 examined-precisely test and Step 2 4-category tick.
+- [ ] Objectives in `docs/brd/brd-v0.2.md:2` are 5 SMART statements (O1 3h, O2 1000km², O3 IoU 0.65, O4 scope, O5 traceability) — each passes measured + traced + handover test from Step 4.
+- [ ] MT7–MT12 logged: MT7 long-list, MT8 care/need one-liner, MT9 Must/Should/Could, MT10 objectives draft, MT11 SMART/failure-mode check, MT12 trace to `docs/brd/brd-v0.2.md:10` KPIs.
+- [ ] AI used for draft/gap-check, human-judged every line per Step 3 workflow and Step 5 rule.
+- [ ] In portal: completed Day 2 steps via provided links, then **Complete All Steps** — attendance rule per notice board (delay may be noted). Next: Day 3 scope, assumptions, constraints — the discipline that protects Day 2 work.
 
 ## 5. Method
 - Stayed inside Day 2 scheduled steps only; no extra program content.
@@ -125,6 +128,7 @@ Limit: SMART passes format while measuring wrong thing. Common failure is measur
 - Agnirva Notice Board — Week 2 Day 2 Focus: Stakeholders and Objectives (accessed 2026-09-08)
 - Agnirva Article — Who Are Your Stakeholders? — W2 Day 2 Step 2 (BABOK 4 categories, 3 missed groups, naming discipline) (accessed 2026-09-08)
 - Agnirva Article — Objectives That Actually Mean Something — W2 Day 2 Step 4 (SMART, 3 failure modes, handover test) (accessed 2026-09-08)
+- Agnirva Recap — Day 2 Recap — W2 Day 2 Step 6 (anchored stakeholders/objectives, downstream dependency W3/W5/W6/W7, Day 3 scope preview) (accessed 2026-09-08)
 - `docs/w2-brd/week2-welcome-business-analyst.md` — 11 sections, pipeline Need→Synthesis
 - `docs/w2-brd/step2-domain-project-ba-lens.md` — 4-question spine (who = §5, success = §10)
 - `docs/w2-brd/step5-how-ai-changing-ba-role.md` — AI drafts, human judges (applied in 4.3)
